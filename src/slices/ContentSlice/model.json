@@ -1,0 +1,46 @@
+{
+  "id": "content_slice",
+  "type": "SharedSlice",
+  "name": "ContentSlice",
+  "description": "Full-width rich content section",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Full-width content section",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "End-to-end Permanent Placement",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "lead": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Lead",
+            "placeholder": "We handle the entire recruitment lifecycle, from initial sourcing to successful onboarding and beyond.",
+            "allowTargetBlank": false,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "Add full-width service details",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item,heading1,heading2,heading5,heading6,preformatted"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

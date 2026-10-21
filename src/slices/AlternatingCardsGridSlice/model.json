@@ -1,0 +1,284 @@
+{
+  "id": "alternating_cards_grid_slice",
+  "type": "SharedSlice",
+  "name": "AlternatingCardsGridSlice",
+  "description": "Alternating case study cards grid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Alternating cards grid section",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Case Studies",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "See how stronger HR systems improve efficiency and growth.",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "cta_label": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Label",
+            "placeholder": "View Case Studies"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "select": null
+          }
+        },
+        "case_studies": {
+          "type": "Group",
+          "config": {
+            "label": "Case Studies",
+            "fields": {
+              "layout": {
+                "type": "Select",
+                "config": {
+                  "label": "Layout",
+                  "options": [
+                    "image-first",
+                    "content-first"
+                  ]
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Scaling a growing team",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "details": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Details",
+                  "placeholder": "Industry, company size, challenge and results",
+                  "allowTargetBlank": false,
+                  "multi": "paragraph,list-item,strong,em,hyperlink"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Blue accent variation",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Case Studies",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "See how stronger HR systems improve efficiency and growth.",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "cta_label": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Label",
+            "placeholder": "View Case Studies"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "select": null
+          }
+        },
+        "case_studies": {
+          "type": "Group",
+          "config": {
+            "label": "Case Studies",
+            "fields": {
+              "layout": {
+                "type": "Select",
+                "config": {
+                  "label": "Layout",
+                  "options": [
+                    "image-first",
+                    "content-first"
+                  ]
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Scaling a growing team",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "details": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Details",
+                  "placeholder": "Industry, company size, challenge and results",
+                  "allowTargetBlank": false,
+                  "multi": "paragraph,list-item,strong,em,hyperlink"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "whiteBackground",
+      "name": "White Background",
+      "docURL": "...",
+      "version": "initial",
+      "description": "White background variation",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Case Studies",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "See how stronger HR systems improve efficiency and growth.",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "cta_label": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Label",
+            "placeholder": "View Case Studies"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "select": null
+          }
+        },
+        "case_studies": {
+          "type": "Group",
+          "config": {
+            "label": "Case Studies",
+            "fields": {
+              "layout": {
+                "type": "Select",
+                "config": {
+                  "label": "Layout",
+                  "options": [
+                    "image-first",
+                    "content-first"
+                  ]
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Scaling a growing team",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "details": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Details",
+                  "placeholder": "Industry, company size, challenge and results",
+                  "allowTargetBlank": false,
+                  "multi": "paragraph,list-item,strong,em,hyperlink"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

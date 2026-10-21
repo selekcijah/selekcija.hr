@@ -1,0 +1,90 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"bg_color": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "primary"
+			},
+			"brevo_list_id": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "12"
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Subscribe Now"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Join 500+ companies that trust us to build their exceptional teams. Subscribe for expert HR insights."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Ready To Transform Your Hiring?"
+						},
+						"type": "heading2"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"bg_color": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "dark"
+			},
+			"brevo_list_id": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "12"
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Subscribe Now"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Join 500+ companies that trust us to build their exceptional teams. Subscribe for expert HR insights."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Ready To Transform Your Hiring?"
+						},
+						"type": "heading2"
+					}
+				]
+			}
+		},
+		"variation": "blue"
+	}
+]

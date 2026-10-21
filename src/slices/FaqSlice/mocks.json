@@ -1,0 +1,23 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "heading": "Find Answers To Common Questions About Our Services",
+      "intro_text": "We go beyond traditional HR outsourcing — delivering tailored, transparent, and people-centered solutions that empower your business to grow.",
+      "side_image": {
+        "dimensions": { "width": 500, "height": 600 },
+        "alt": "FAQ image",
+        "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=500&h=600&fit=crop"
+      },
+      "anchor_id": "faq"
+    },
+    "items": [
+      { "question": "What Industries Do You Specialize In?", "answer": "We specialize across Technology, Finance, Healthcare, and Retail sectors, bringing deep domain expertise to every search." },
+      { "question": "How Long Does It Take To Fill A Position?", "answer": "On average we present shortlisted candidates within 2–3 weeks depending on role complexity and market availability." },
+      { "question": "Do You Provide Both Temporary & Permanent Staffing?", "answer": "Yes — we offer contract, interim, and permanent placement services tailored to your workforce needs." },
+      { "question": "How Do You Ensure The Quality Of Candidates?", "answer": "Every candidate goes through structured interviews, reference checks, and skills assessments before being presented." },
+      { "question": "Can You Manage High-volume Hiring Campaigns?", "answer": "Absolutely. Our dedicated project teams are experienced in rapid, high-volume recruitment with strict quality standards." }
+    ]
+  }
+]

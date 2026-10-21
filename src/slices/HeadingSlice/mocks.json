@@ -1,0 +1,39 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subtitle": {
+				"__TYPE__": "FieldContent",
+				"value": "Our Expertise",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "A flexible heading slice that fits the project style",
+				"type": "Text"
+			},
+			"heading_level": {
+				"__TYPE__": "FieldContent",
+				"value": "h2",
+				"type": "Select"
+			},
+			"alignment": {
+				"__TYPE__": "FieldContent",
+				"value": "center",
+				"type": "Select"
+			},
+			"color": {
+				"__TYPE__": "FieldContent",
+				"value": "dark",
+				"type": "Select"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

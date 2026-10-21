@@ -1,0 +1,146 @@
+{
+  "format": "page",
+  "id": "page",
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID",
+          "placeholder": "URL slug for the page"
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "allowTargetBlank": false,
+          "label": "Title",
+          "placeholder": "Title for the page",
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "slices": {
+        "config": {
+          "choices": {
+            "roi_calculator_slice": {
+              "type": "SharedSlice"
+            },
+            "feature_rows_slice": {
+              "type": "SharedSlice"
+            },
+            "content_slice": {
+              "type": "SharedSlice"
+            },
+            "cards_grid_slice": {
+              "type": "SharedSlice"
+            },
+            "newsletter_slice": {
+              "type": "SharedSlice"
+            },
+            "chart_slice": {
+              "type": "SharedSlice"
+            },
+            "featured_blogs_slice": {
+              "type": "SharedSlice"
+            },
+            "video_slice": {
+              "type": "SharedSlice"
+            },
+            "blog_list_slice": {
+              "type": "SharedSlice"
+            },
+            "team_slice": {
+              "type": "SharedSlice"
+            },
+            "testimonials_slice": {
+              "type": "SharedSlice"
+            },
+            "clients_slice": {
+              "type": "SharedSlice"
+            },
+            "faq_slice": {
+              "type": "SharedSlice"
+            },
+            "cta_slice": {
+              "type": "SharedSlice"
+            },
+            "contact_slice": {
+              "type": "SharedSlice"
+            },
+            "our_story_slice": {
+              "type": "SharedSlice"
+            },
+            "services_slice": {
+              "type": "SharedSlice"
+            },
+            "hero_slice": {
+              "type": "SharedSlice"
+            },
+            "why_choose_slice": {
+              "type": "SharedSlice"
+            },
+            "process_slice": {
+              "type": "SharedSlice"
+            },
+            "counter_slice": {
+              "type": "SharedSlice"
+            },
+            "small_hero_slice": {
+              "type": "SharedSlice"
+            },
+            "alternating_cards_grid_slice": {
+              "type": "SharedSlice"
+            },
+            "image_slice": {
+              "type": "SharedSlice"
+            },
+            "heading_slice": {
+              "type": "SharedSlice"
+            },
+            "webinar_list_slice": {
+              "type": "SharedSlice"
+            },
+            "webinar_form_slice": {
+              "type": "SharedSlice"
+            },
+            "tests_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        },
+        "fieldset": "Slice Zone",
+        "type": "Slices"
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  },
+  "label": "Page",
+  "repeatable": true,
+  "status": true
+}

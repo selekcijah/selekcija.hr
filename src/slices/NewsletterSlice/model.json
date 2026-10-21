@@ -1,0 +1,120 @@
+{
+  "id": "newsletter_slice",
+  "type": "SharedSlice",
+  "name": "NewsletterSlice",
+  "description": "Newsletter CTA section with email subscription",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "NewsletterSlice",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Ready To Transform Your Hiring?",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Short supporting text below the heading",
+            "allowTargetBlank": false,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label",
+            "placeholder": "Subscribe"
+          }
+        },
+        "bg_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "Choose background color",
+            "options": [
+              "primary",
+              "secondary",
+              "dark"
+            ],
+            "default_value": "primary"
+          }
+        },
+        "brevo_list_id": {
+          "type": "Text",
+          "config": {
+            "label": "Brevo List ID",
+            "placeholder": "12"
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Blue accent variation",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Ready To Transform Your Hiring?",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Short supporting text below the heading",
+            "allowTargetBlank": false,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label",
+            "placeholder": "Subscribe"
+          }
+        },
+        "bg_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "Choose background color",
+            "options": [
+              "primary",
+              "secondary",
+              "dark"
+            ],
+            "default_value": "primary"
+          }
+        },
+        "brevo_list_id": {
+          "type": "Text",
+          "config": {
+            "label": "Brevo List ID",
+            "placeholder": "12"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

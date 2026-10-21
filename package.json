@@ -1,0 +1,48 @@
+{
+  "name": "selekcija",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "killer click",
+  "scripts": {
+    "dev": "concurrently \"npm:next:dev\" \"npm:slicemachine\" --names \"next,slicemachine\" --prefix-colors blue,magenta",
+    "next:dev": "rimraf .next && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "slicemachine": "start-slicemachine",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.6.0",
+    "@prismicio/client": "^7.21.6",
+    "@prismicio/next": "^2.2.1",
+    "@prismicio/react": "^3.3.0",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "motion": "^14.0.0",
+    "negotiator": "^1.0.0",
+    "next": "15.2.8",
+    "nodemailer": "^6.10.1",
+    "ogl": "^1.0.11",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.7.0",
+    "swiper": "^12.1.4"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.95",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/postcss": "^4.0.10",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "^15.2.1",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "rimraf": "^6.1.3",
+    "slice-machine-ui": "^2.21.1",
+    "tailwindcss": "^4.0.10"
+  }
+}

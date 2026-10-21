@@ -1,0 +1,62 @@
+{
+  "id": "webinar_list_slice",
+  "type": "SharedSlice",
+  "name": "WebinarListSlice",
+  "description": "Grid of webinar cards linking to YouTube videos",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "imageUrl": "",
+      "primary": {
+        "tagline": {
+          "type": "Text",
+          "config": {
+            "label": "Tagline",
+            "placeholder": "Webinari"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Pogledajte naše snimke webinara"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": "Kratki uvod u sekciju webinara"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "Naziv webinara"
+          }
+        },
+        "short_description": {
+          "type": "Text",
+          "config": {
+            "label": "Short Description",
+            "placeholder": "Kratki opis webinara"
+          }
+        },
+        "youtube_url": {
+          "type": "Text",
+          "config": {
+            "label": "YouTube URL",
+            "placeholder": "https://www.youtube.com/watch?v=..."
+          }
+        }
+      }
+    }
+  ]
+}

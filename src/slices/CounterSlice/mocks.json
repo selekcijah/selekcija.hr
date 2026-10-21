@@ -1,0 +1,113 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "74c452de-f316-403a-97fb-3dd0327278c9",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Average Implementation Time"
+						}
+					],
+					[
+						"suffix",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "Days"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "50"
+						}
+					]
+				]
+			}
+		],
+		"primary": {},
+		"variation": "default"
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "a24febb6-46d4-4cd0-a8da-dc09f674ed74",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Client Satisfaction"
+						}
+					],
+					[
+						"suffix",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "%"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "98"
+						}
+					]
+				]
+			}
+		],
+		"primary": {},
+		"variation": "altBackground"
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "bee5ac89-36bd-4f2c-875c-f342b81921e9",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Successful Placements"
+						}
+					],
+					[
+						"suffix",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "K+"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "24"
+						}
+					]
+				]
+			}
+		],
+		"primary": {},
+		"variation": "blue"
+	}
+]

@@ -1,0 +1,52 @@
+{
+  "description": "Rich text body content for blog posts",
+  "id": "blog_body_slice",
+  "name": "BlogBodySlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item"
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "quote",
+      "name": "Quote",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "A highlighted quote block",
+      "primary": {
+        "quote_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote Text",
+            "single": "paragraph",
+            "placeholder": "\"Inspiring quote goes here...\""
+          }
+        },
+        "quote_source": {
+          "type": "Text",
+          "config": {
+            "label": "Quote Source",
+            "placeholder": "- Author, Source"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

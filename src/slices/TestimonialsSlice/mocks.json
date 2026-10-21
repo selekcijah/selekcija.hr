@@ -1,0 +1,84 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "f8c3d2a1-4b5e-4c6d-9e0f-1a2b3c4d5e6f",
+				"value": [
+					[
+						"author_image",
+						{
+							"alt": "slowly",
+							"credits": null,
+							"edit": {
+								"background": "transparent",
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"zoom": 1
+							},
+							"height": 8640,
+							"origin": {
+								"height": 8640,
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+								"width": 8640
+							},
+							"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+							"width": 8640,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"author_name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "observe"
+						}
+					],
+					[
+						"author_role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "chemical"
+						}
+					],
+					[
+						"category",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "calm"
+						}
+					],
+					[
+						"quote",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "treated"
+						}
+					]
+				]
+			}
+		],
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "key"
+			},
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "recognize"
+			}
+		},
+		"variation": "default"
+	}
+]

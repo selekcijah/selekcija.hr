@@ -1,0 +1,17 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "heading": "Our Valuable Clients"
+    },
+    "items": [
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 1", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 1" },
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 2", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 2" },
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 3", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 3" },
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 4", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 4" },
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 5", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 5" },
+      { "logo": { "dimensions": { "width": 160, "height": 60 }, "alt": "Client 6", "url": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=160&h=60&fit=crop" }, "logo_name": "Client 6" }
+    ]
+  }
+]

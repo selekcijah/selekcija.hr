@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "HR Insights And Trends To Help Your Business Grow"
+			},
+			"post_count": {
+				"__TYPE__": "FieldContent",
+				"type": "Number",
+				"value": "3"
+			},
+			"sub_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Our Blog"
+			}
+		},
+		"variation": "default"
+	}
+]

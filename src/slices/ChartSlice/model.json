@@ -1,0 +1,72 @@
+{
+  "id": "chart_slice",
+  "type": "SharedSlice",
+  "name": "ChartSlice",
+  "description": "Chart section with heading, chart and description",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "ChartSlice",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Section heading",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Description shown below the chart",
+            "allowTargetBlank": true,
+            "multi": "paragraph,hyperlink,strong,em"
+          }
+        },
+        "chart_type": {
+          "type": "Select",
+          "config": {
+            "label": "Chart Type",
+            "placeholder": "Select chart type",
+            "options": [
+              "bar",
+              "line",
+              "pie"
+            ],
+            "default_value": "bar"
+          }
+        },
+        "chart_color": {
+          "type": "Color",
+          "config": {
+            "label": "Chart Color",
+            "placeholder": "Primary color for the chart"
+          }
+        }
+      },
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label",
+            "placeholder": "e.g. January"
+          }
+        },
+        "value": {
+          "type": "Number",
+          "config": {
+            "label": "Value",
+            "placeholder": "e.g. 42"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Unesite podatke o vašoj organizaciji za personalizirani prikaz potencijalnih ušteda i povrata investicije."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"disclaimer": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Procjene se temelje na unesenim podacima i industrijskim prosjekima."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Izračunajte povrat vaše investicije"
+						},
+						"type": "heading2"
+					}
+				]
+			},
+			"section_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "KALKULATOR ROI"
+						},
+						"type": "paragraph"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	}
+]

@@ -1,0 +1,88 @@
+{
+  "description": "Full-width dark CTA banner with single heading, description, and action button",
+  "id": "cta_slice",
+  "name": "CtaSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default variation",
+      "docURL": "...",
+      "id": "default",
+      "imageUrl": "",
+      "items": {},
+      "name": "Default",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Ready To Transform Your Workplace?"
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "Join 200+ companies that have improved their HR functions with expert consulting."
+          },
+          "type": "Text"
+        },
+        "button_label": {
+          "config": {
+            "label": "Button Label",
+            "placeholder": "Start Now"
+          },
+          "type": "Text"
+        },
+        "button_link": {
+          "config": {
+            "allowText": false,
+            "label": "Button Link",
+            "select": null
+          },
+          "type": "Link"
+        }
+      },
+      "version": "initial"
+    },
+    {
+      "description": "CTA banner with green background (color-flipped)",
+      "docURL": "...",
+      "id": "greenBg",
+      "imageUrl": "",
+      "items": {},
+      "name": "Green Background",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Ready To Transform Your Workplace?"
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "Join 200+ companies that have improved their HR functions."
+          },
+          "type": "Text"
+        },
+        "button_label": {
+          "config": {
+            "label": "Button Label",
+            "placeholder": "Start Now"
+          },
+          "type": "Text"
+        },
+        "button_link": {
+          "config": {
+            "allowText": false,
+            "label": "Button Link",
+            "select": null
+          },
+          "type": "Link"
+        }
+      },
+      "version": "initial"
+    }
+  ]
+}

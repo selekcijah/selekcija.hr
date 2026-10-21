@@ -1,0 +1,284 @@
+{
+  "description": "Main hero banner with heading, stats, description, CTAs, features and reference logos",
+  "id": "hero_slice",
+  "name": "HeroSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default variation",
+      "docURL": "...",
+      "id": "default",
+      "imageUrl": "",
+      "name": "Default",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Connecting Top Talent With Leading Companies",
+            "single": "heading1,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "rotating_words": {
+          "config": {
+            "fields": {
+              "word": {
+                "config": {
+                  "label": "Word",
+                  "placeholder": "e.g. Companies"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Rotating Words (last word)"
+          },
+          "type": "Group"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "multi": "paragraph,strong,em,hyperlink",
+            "placeholder": "Short description paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "button_link": {
+          "config": {
+            "allowText": true,
+            "label": "Primary Button",
+            "select": null
+          },
+          "type": "Link"
+        },
+        "button_link_2": {
+          "config": {
+            "allowText": true,
+            "label": "Secondary Button",
+            "select": null
+          },
+          "type": "Link"
+        },
+        "stats": {
+          "config": {
+            "fields": {
+              "value": {
+                "config": {
+                  "label": "Value",
+                  "placeholder": "10K+"
+                },
+                "type": "Text"
+              },
+              "label": {
+                "config": {
+                  "label": "Label",
+                  "placeholder": "Talents Placed"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Stats"
+          },
+          "type": "Group"
+        },
+        "logos": {
+          "config": {
+            "fields": {
+              "logo": {
+                "config": {
+                  "constraint": {
+                    "height": 60,
+                    "width": 160
+                  },
+                  "label": "Logo Image",
+                  "thumbnails": []
+                },
+                "type": "Image"
+              },
+              "logo_name": {
+                "config": {
+                  "label": "Logo Name",
+                  "placeholder": "Company Name"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Reference Logos"
+          },
+          "type": "Group"
+        },
+        "features": {
+          "config": {
+            "fields": {
+              "icon": {
+                "config": {
+                  "constraint": {
+                    "height": 50,
+                    "width": 50
+                  },
+                  "label": "Icon",
+                  "thumbnails": []
+                },
+                "type": "Image"
+              },
+              "title": {
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Cultural Fit"
+                },
+                "type": "Text"
+              },
+              "description": {
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Short feature description"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Features"
+          },
+          "type": "Group"
+        }
+      },
+      "version": "sktwi1xtmkfgx8626"
+    },
+    {
+      "description": "Blue accent variation",
+      "docURL": "...",
+      "id": "blue",
+      "imageUrl": "",
+      "name": "Blue",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Connecting Top Talent With Leading Companies",
+            "single": "heading1,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "rotating_words": {
+          "config": {
+            "fields": {
+              "word": {
+                "config": {
+                  "label": "Word",
+                  "placeholder": "e.g. Companies"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Rotating Words (last word)"
+          },
+          "type": "Group"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "multi": "paragraph,strong,em,hyperlink",
+            "placeholder": "Short description paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "button_link": {
+          "config": {
+            "allowText": true,
+            "label": "Primary Button",
+            "select": null
+          },
+          "type": "Link"
+        },
+        "button_link_2": {
+          "config": {
+            "allowText": true,
+            "label": "Secondary Button",
+            "select": null
+          },
+          "type": "Link"
+        },
+        "stats": {
+          "config": {
+            "fields": {
+              "value": {
+                "config": {
+                  "label": "Value",
+                  "placeholder": "10K+"
+                },
+                "type": "Text"
+              },
+              "label": {
+                "config": {
+                  "label": "Label",
+                  "placeholder": "Talents Placed"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Stats"
+          },
+          "type": "Group"
+        },
+        "logos": {
+          "config": {
+            "fields": {
+              "logo": {
+                "config": {
+                  "constraint": {
+                    "height": 60,
+                    "width": 160
+                  },
+                  "label": "Logo Image",
+                  "thumbnails": []
+                },
+                "type": "Image"
+              },
+              "logo_name": {
+                "config": {
+                  "label": "Logo Name",
+                  "placeholder": "Company Name"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Reference Logos"
+          },
+          "type": "Group"
+        },
+        "features": {
+          "config": {
+            "fields": {
+              "icon": {
+                "config": {
+                  "constraint": {
+                    "height": 50,
+                    "width": 50
+                  },
+                  "label": "Icon",
+                  "thumbnails": []
+                },
+                "type": "Image"
+              },
+              "title": {
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Cultural Fit"
+                },
+                "type": "Text"
+              },
+              "description": {
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Short feature description"
+                },
+                "type": "Text"
+              }
+            },
+            "label": "Features"
+          },
+          "type": "Group"
+        }
+      },
+      "version": "sktwi1xtmkfgx8626"
+    }
+  ]
+}

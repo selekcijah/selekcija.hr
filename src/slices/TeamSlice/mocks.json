@@ -1,0 +1,101 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "36c539a7-f872-4de8-ac2f-4dc56e1ab515",
+				"value": [
+					[
+						"facebook_url",
+						{
+							"key": "1514ebdb-531c-49a8-b67e-e2073018f228",
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "https://facebook.com"
+							}
+						}
+					],
+					[
+						"linkedin_url",
+						{
+							"key": "e514bfb9-cfea-462d-b066-e99ff412ef00",
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "https://linkedin.com"
+							}
+						}
+					],
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Ana Novak"
+						}
+					],
+					[
+						"photo",
+						{
+							"alt": "Ana Novak",
+							"edit": {
+								"background": "transparent",
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"zoom": 1
+							},
+							"height": 4752,
+							"origin": {
+								"height": 4752,
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+								"width": 3168
+							},
+							"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+							"width": 3168,
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Direktorica"
+						}
+					],
+					[
+						"twitter_url",
+						{
+							"key": "2bedc0e6-3978-4a0f-9582-9ad710b4f644",
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "https://x.com"
+							}
+						}
+					]
+				]
+			}
+		],
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Upoznajte stručnjake koji pokreću Selekciju"
+			},
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Naš tim"
+			}
+		},
+		"variation": "default"
+	}
+]

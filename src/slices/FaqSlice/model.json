@@ -1,0 +1,63 @@
+{
+  "description": "FAQ section with two-column layout: heading/image left, accordion right",
+  "id": "faq_slice",
+  "name": "FaqSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Find Answers To Common Questions"
+          }
+        },
+        "intro_text": {
+          "type": "Text",
+          "config": {
+            "label": "Intro Text",
+            "placeholder": "We go beyond traditional HR outsourcing..."
+          }
+        },
+        "side_image": {
+          "type": "Image",
+          "config": {
+            "label": "Side Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "anchor_id": {
+          "type": "Text",
+          "config": {
+            "label": "Anchor ID",
+            "placeholder": "faq"
+          }
+        }
+      },
+      "items": {
+        "question": {
+          "type": "Text",
+          "config": {
+            "label": "Question",
+            "placeholder": "What industries do you specialize in?"
+          }
+        },
+        "answer": {
+          "type": "Text",
+          "config": {
+            "label": "Answer",
+            "placeholder": "We specialize in..."
+          }
+        }
+      }
+    }
+  ]
+}

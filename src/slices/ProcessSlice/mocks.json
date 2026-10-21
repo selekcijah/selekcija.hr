@@ -1,0 +1,228 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Proces"
+						}
+					}
+				]
+			},
+			"show_step_numbers": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "ce1c5bf2-0675-405c-9d5b-742450f3b088",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "problems"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Objavi"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Objavite oglase na svim portalima u samo par minuta, odaberite testove i stvar je riješena."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "a1b2c3d4-e5f6-4789-a012-3456789abcde",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "identity"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Testiraj"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Sve ostalo je automatizirano i nakon toga čekate da kandidati riješe testove i snime video odgovore."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "b2c3d4e5-f6a7-4890-b123-456789abcdef",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "laptop"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Procijeni"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Na osnovi rezultata testiranja sustav predlaže pitanja za intervju. S više podataka o kandidatu, procjena je lakša."
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "blue",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Proces"
+						}
+					}
+				]
+			},
+			"show_step_numbers": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "650b5dc2-76e9-4bf5-b485-c7caed91a504",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "relationship"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Objavi"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Objavite oglase na svim portalima u samo par minuta, odaberite testove i stvar je riješena."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "e3c71191-fe72-41d6-b3ea-cb00256cc460",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "identity"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Testiraj"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Sve ostalo je automatizirano i nakon toga čekate da kandidati riješe testove i snime video odgovore."
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "922aa59c-1c1c-4df0-8da7-012b79221fba",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "laptop"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Procijeni"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Na osnovi rezultata testiranja sustav predlaže pitanja za intervju. S više podataka o kandidatu, procjena je lakša."
+						}
+					]
+				]
+			}
+		]
+	}
+]

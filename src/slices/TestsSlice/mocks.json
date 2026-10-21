@@ -1,0 +1,262 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"value": "Scouthem Platform",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Otkrijte dubinu i raznolikost naše biblioteke testova"
+						}
+					}
+				]
+			},
+			"cards": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "68702f45-64f8-49ca-97e8-8555571bfb7c",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Kognitivni testovi",
+									"type": "Text"
+								}
+							],
+							[
+								"subtitle",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Mentalne sposobnosti",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+										"width": 4160,
+										"height": 3120
+									},
+									"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+									"width": 4160,
+									"height": 3120,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "Kognitivni testovi",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"link",
+								{
+									"key": "fc4b32fb-1328-4470-88cd-deb0094134be",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://selekcija.hr/testovi"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "a8f3c1e2-4b5d-4e6a-9c0d-1e2f3a4b5c6d",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Upitnici ličnosti",
+									"type": "Text"
+								}
+							],
+							[
+								"subtitle",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Preferencije i ponašanje",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88",
+										"width": 4272,
+										"height": 2848
+									},
+									"url": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88",
+									"width": 4272,
+									"height": 2848,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "Upitnici ličnosti",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"link",
+								{
+									"key": "b1c2d3e4-f5a6-4789-8abc-def012345678",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://selekcija.hr/testovi"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "c9d8e7f6-a5b4-4c3d-9e2f-1a0b9c8d7e6f",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Upitnici motivacije",
+									"type": "Text"
+								}
+							],
+							[
+								"subtitle",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Pogoni i ambicije",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+										"width": 5472,
+										"height": 3648
+									},
+									"url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+									"width": 5472,
+									"height": 3648,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "Upitnici motivacije",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"link",
+								{
+									"key": "d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f70",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://selekcija.hr/testovi"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Specifične kompetencije",
+									"type": "Text"
+								}
+							],
+							[
+								"subtitle",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Vještine i znanja",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+										"width": 4000,
+										"height": 2667
+									},
+									"url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+									"width": 4000,
+									"height": 2667,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "Specifične kompetencije",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"link",
+								{
+									"key": "f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f708192",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://selekcija.hr/testovi"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

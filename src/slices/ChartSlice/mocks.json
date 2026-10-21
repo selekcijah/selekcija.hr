@@ -1,0 +1,130 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "610378ae-549c-4b8d-a9d3-3552d7fc2217",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Q1"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "42"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "e03c5cea-90e0-4693-8fa7-c09003630fa8",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Q2"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "67"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "302faba9-7c50-47ab-a018-0ca14cc61292",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Q3"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "55"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "34105253-47ee-4952-a0ac-9ae5f4a37a9f",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Q4"
+						}
+					],
+					[
+						"value",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Number",
+							"value": "88"
+						}
+					]
+				]
+			}
+		],
+		"primary": {
+			"chart_color": {
+				"__TYPE__": "FieldContent",
+				"type": "Color",
+				"value": "#45D996"
+			},
+			"chart_type": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "bar"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Here is a breakdown of key metrics from the past year."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Our Performance at a Glance"
+						},
+						"type": "heading2"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	}
+]

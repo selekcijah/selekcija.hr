@@ -1,0 +1,70 @@
+{
+  "description": "Testimonials section with cards grid",
+  "id": "testimonials_slice",
+  "name": "TestimonialsSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "tagline": {
+          "type": "Text",
+          "config": {
+            "label": "Tagline",
+            "placeholder": "Testimonial"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "See What Our Partners Say"
+          }
+        }
+      },
+      "items": {
+        "category": {
+          "type": "Text",
+          "config": {
+            "label": "Category",
+            "placeholder": "Company"
+          }
+        },
+        "quote": {
+          "type": "Text",
+          "config": {
+            "label": "Quote",
+            "placeholder": "They found us a perfect match..."
+          }
+        },
+        "author_name": {
+          "type": "Text",
+          "config": {
+            "label": "Author Name",
+            "placeholder": "Jane Smith"
+          }
+        },
+        "author_role": {
+          "type": "Text",
+          "config": {
+            "label": "Author Role",
+            "placeholder": "CEO"
+          }
+        },
+        "author_image": {
+          "type": "Image",
+          "config": {
+            "label": "Author Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

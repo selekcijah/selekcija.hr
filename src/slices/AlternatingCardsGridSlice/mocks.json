@@ -1,0 +1,377 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"case_studies": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "d1f65dc2-84c1-4712-b7c0-64ba18ab9eb1",
+						"value": [
+							[
+								"layout",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "content-first"
+								}
+							],
+							[
+								"image",
+								{
+									"alt": "window",
+									"edit": {
+										"background": "transparent",
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"zoom": 1
+									},
+									"height": 4398,
+									"origin": {
+										"height": 4398,
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+										"width": 6597
+									},
+									"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+									"width": 6597,
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Wonderful"
+											},
+											"type": "heading3"
+										}
+									]
+								}
+							],
+							[
+								"details",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Occaecat enim est ex."
+											},
+											"type": "paragraph"
+										}
+									]
+								}
+							],
+							[
+								"link",
+								{
+									"key": "acf5d8a7-6b3c-42c4-9b77-623a3d50aac0",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "concerned"
+			},
+			"cta_link": {
+				"key": "deda93ad-ac3b-4ab8-bea2-706ead5c92fe",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Husband"
+						},
+						"type": "heading2"
+					}
+				]
+			},
+			"sub_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Pariatur eiusmod nulla do quis est Lorem do Lorem eu."
+						},
+						"type": "paragraph"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"case_studies": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "4697823c-45e8-48f8-8939-cec74714433a",
+						"value": [
+							[
+								"layout",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "image-first"
+								}
+							],
+							[
+								"image",
+								{
+									"alt": "law",
+									"edit": {
+										"background": "transparent",
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"zoom": 1
+									},
+									"height": 5894,
+									"origin": {
+										"height": 5894,
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+										"width": 3935
+									},
+									"url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+									"width": 3935,
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Herself"
+											},
+											"type": "heading3"
+										}
+									]
+								}
+							],
+							[
+								"details",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Ut enim ea enim Lorem aliqua et nostrud. Sint ipsum commodo laboris eiusmod. In cillum consectetur elit magna commodo proident proident velit do elit sint consequat."
+											},
+											"type": "paragraph"
+										}
+									]
+								}
+							],
+							[
+								"link",
+								{
+									"key": "cc1045a7-ea32-4113-8877-827023d6f48b",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "shown"
+			},
+			"cta_link": {
+				"key": "82d3b083-0e92-4b29-ab18-e2b8114f5d17",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com"
+				}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Where"
+						},
+						"type": "heading2"
+					}
+				]
+			},
+			"sub_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Mollit cupidatat laborum nulla. Excepteur voluptate officia do consectetur amet non."
+						},
+						"type": "paragraph"
+					}
+				]
+			}
+		},
+		"variation": "blue"
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"case_studies": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "874c9cb1-5555-4df7-8e6d-6754a629ae7a",
+						"value": [
+							[
+								"layout",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "image-first"
+								}
+							],
+							[
+								"image",
+								{
+									"alt": "father",
+									"edit": {
+										"background": "transparent",
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"zoom": 1
+									},
+									"height": 3778,
+									"origin": {
+										"height": 3778,
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+										"width": 3024
+									},
+									"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+									"width": 3024,
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Student"
+											},
+											"type": "heading3"
+										}
+									]
+								}
+							],
+							[
+								"details",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Anim anim mollit esse aliquip."
+											},
+											"type": "paragraph"
+										}
+									]
+								}
+							],
+							[
+								"link",
+								{
+									"key": "31e4c1b8-539a-4163-b93c-3cc0c974d0b2",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://prismic.io"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "nodded"
+			},
+			"cta_link": {
+				"key": "f265b128-2a7d-4e53-874d-b5bc6ce547b1",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Radio"
+						},
+						"type": "heading2"
+					}
+				]
+			},
+			"sub_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Magna veniam laborum in et do mollit. Consectetur incididunt qui laboris eiusmod mollit aliquip commodo cillum eiusmod voluptate magna esse sit."
+						},
+						"type": "paragraph"
+					}
+				]
+			}
+		},
+		"variation": "whiteBackground"
+	}
+]

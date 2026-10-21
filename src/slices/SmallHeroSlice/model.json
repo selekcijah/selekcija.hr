@@ -1,0 +1,28 @@
+{
+  "description": "Compact hero for inner pages",
+  "id": "small_hero_slice",
+  "name": "SmallHeroSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Case Studies",
+            "allowTargetBlank": false,
+            "single": "heading2,strong,em,hyperlink"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

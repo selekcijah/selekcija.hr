@@ -1,0 +1,67 @@
+{
+  "id": "tests_slice",
+  "name": "TestsSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default",
+      "docURL": "",
+      "id": "default",
+      "imageUrl": "",
+      "name": "Default",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": "Scouthem Platform"
+          },
+          "type": "Text"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Discover the Depth and Variety of Our Test Library",
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "cards": {
+          "config": {
+            "fields": {
+              "title": {
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Kognitivni testovi"
+                },
+                "type": "Text"
+              },
+              "subtitle": {
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Mental Abilities"
+                },
+                "type": "Text"
+              },
+              "image": {
+                "config": {
+                  "label": "Image"
+                },
+                "type": "Image"
+              },
+              "link": {
+                "config": {
+                  "label": "Link",
+                  "select": null
+                },
+                "type": "Link"
+              }
+            },
+            "label": "Cards"
+          },
+          "type": "Group"
+        }
+      },
+      "version": ""
+    }
+  ]
+}

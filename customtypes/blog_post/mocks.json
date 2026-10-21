@@ -1,0 +1,21 @@
+{
+  "uid": "sample-blog-post",
+  "title": [{ "type": "heading1", "text": "5 Strategies To Improve Candidate Experience", "spans": [] }],
+  "featured_image": {
+    "dimensions": { "width": 800, "height": 500 },
+    "alt": "Blog featured image",
+    "copyright": null,
+    "url": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=500&fit=crop"
+  },
+  "date": "2025-01-15",
+  "read_time": "8 Min Read",
+  "excerpt": "Discover proven strategies to improve candidate experience and dramatically increase your offer acceptance rates.",
+  "meta_title": "5 Strategies To Improve Candidate Experience",
+  "meta_description": "Improve candidate experience and boost offer acceptance with these 5 proven strategies.",
+  "meta_image": {
+    "dimensions": { "width": 1200, "height": 630 },
+    "alt": "Meta image",
+    "url": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=630&fit=crop"
+  },
+  "slices": []
+}

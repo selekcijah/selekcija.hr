@@ -1,0 +1,214 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "FieldContent",
+				"value": "alive",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "There"
+						}
+					}
+				]
+			},
+			"mission_title": {
+				"__TYPE__": "FieldContent",
+				"value": "anyone",
+				"type": "Text"
+			},
+			"mission_text": {
+				"__TYPE__": "FieldContent",
+				"value": "avoid",
+				"type": "Text"
+			},
+			"vision_title": {
+				"__TYPE__": "FieldContent",
+				"value": "relationship",
+				"type": "Text"
+			},
+			"vision_text": {
+				"__TYPE__": "FieldContent",
+				"value": "since",
+				"type": "Text"
+			},
+			"more_link": {
+				"key": "f3fd26ee-582e-40c8-a882-ef900eb675f4",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "up"
+				}
+			},
+			"years": {
+				"__TYPE__": "FieldContent",
+				"value": "87",
+				"type": "Number"
+			},
+			"years_label": {
+				"__TYPE__": "FieldContent",
+				"value": "imagine",
+				"type": "Text"
+			},
+			"image_1": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+					"width": 4076,
+					"height": 2712
+				},
+				"url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+				"width": 4076,
+				"height": 2712,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "various",
+				"credits": null,
+				"__TYPE__": "ImageContent"
+			},
+			"image_2": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+					"width": 4000,
+					"height": 6000
+				},
+				"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+				"width": 4000,
+				"height": 6000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "mighty",
+				"credits": null,
+				"__TYPE__": "ImageContent"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "blue",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "FieldContent",
+				"value": "bring",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Watch"
+						}
+					}
+				]
+			},
+			"mission_title": {
+				"__TYPE__": "FieldContent",
+				"value": "picture",
+				"type": "Text"
+			},
+			"mission_text": {
+				"__TYPE__": "FieldContent",
+				"value": "straight",
+				"type": "Text"
+			},
+			"vision_title": {
+				"__TYPE__": "FieldContent",
+				"value": "hat",
+				"type": "Text"
+			},
+			"vision_text": {
+				"__TYPE__": "FieldContent",
+				"value": "apple",
+				"type": "Text"
+			},
+			"more_link": {
+				"key": "efaf8be5-7068-4db9-a354-061bbdd880a1",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "rod"
+				}
+			},
+			"years": {
+				"__TYPE__": "FieldContent",
+				"value": "52",
+				"type": "Number"
+			},
+			"years_label": {
+				"__TYPE__": "FieldContent",
+				"value": "won",
+				"type": "Text"
+			},
+			"image_1": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+					"width": 4172,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+				"width": 4172,
+				"height": 4000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "use",
+				"credits": null,
+				"__TYPE__": "ImageContent"
+			},
+			"image_2": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+					"width": 12288,
+					"height": 16384
+				},
+				"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+				"width": 12288,
+				"height": 16384,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "brave",
+				"credits": null,
+				"__TYPE__": "ImageContent"
+			}
+		},
+		"items": []
+	}
+]

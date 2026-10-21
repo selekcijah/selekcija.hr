@@ -1,0 +1,115 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "a164043d-9f14-4191-9fe4-86b12f2baa52",
+				"value": [
+					[
+						"short_description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Saznajte kako smanjiti vrijeme zapošljavanja uz digitalne alate za procjenu."
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Kako ubrzati selekciju kandidata"
+						}
+					],
+					[
+						"youtube_url",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "6607a8d6-4c7e-4143-9a1e-a26ea37f711b",
+				"value": [
+					[
+						"short_description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Najbolje prakse za uspješan onboarding u prvih 90 dana."
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Onboarding koji zadržava talente"
+						}
+					],
+					[
+						"youtube_url",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "5bb60ea5-fcfa-429f-8c9b-75c4c2ac9034",
+				"value": [
+					[
+						"short_description",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Kada i kako koristiti testove u procesu selekcije."
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "Psihološko testiranje u praksi"
+						}
+					],
+					[
+						"youtube_url",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Text",
+							"value": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+						}
+					]
+				]
+			}
+		],
+		"primary": {
+			"description": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Praktični savjeti iz područja HR-a i zapošljavanja — dostupni kad god vam odgovara."
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Pogledajte naše snimke webinara"
+			},
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Webinari"
+			}
+		},
+		"variation": "default"
+	}
+]

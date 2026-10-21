@@ -1,0 +1,55 @@
+{
+  "id": "roi_calculator_slice",
+  "type": "SharedSlice",
+  "name": "RoiCalculatorSlice",
+  "description": "Interactive ROI calculator for recruitment savings",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variant",
+      "primary": {
+        "section_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Section label",
+            "placeholder": "KALKULATOR ROI",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Izračunajte povrat vaše investicije",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Unesite podatke o vašoj organizaciji za personalizirani prikaz.",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "disclaimer": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Disclaimer (optional override)",
+            "placeholder": "Procjene se temelje na pretpostavci...",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

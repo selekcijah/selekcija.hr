@@ -1,0 +1,223 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "json": {
+    "Main": {
+      "siteTitle": {
+        "config": {
+          "allowTargetBlank": false,
+          "label": "Site Title",
+          "placeholder": "Title of the site",
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "logo": {
+        "config": {
+          "constraint": {},
+          "label": "Logo",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    },
+    "Footer": {
+      "footerHeading": {
+        "config": {
+          "label": "Footer Heading",
+          "placeholder": "Let's Talk With Us"
+        },
+        "type": "Text"
+      },
+      "footerLogo": {
+        "config": {
+          "constraint": {},
+          "label": "Footer Logo",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "footerDescription": {
+        "config": {
+          "allowTargetBlank": false,
+          "label": "Footer Description",
+          "placeholder": "Short tagline shown below the logo",
+          "single": "paragraph,strong,em"
+        },
+        "type": "StructuredText"
+      },
+      "contactEmail": {
+        "config": {
+          "label": "Contact Email",
+          "placeholder": "hello@example.com"
+        },
+        "type": "Text"
+      },
+      "phone": {
+        "config": {
+          "label": "Phone",
+          "placeholder": "+1 234 567 890"
+        },
+        "type": "Text"
+      },
+      "address": {
+        "config": {
+          "label": "Address",
+          "placeholder": "Street, City, Country"
+        },
+        "type": "Text"
+      },
+      "facebookUrl": {
+        "config": {
+          "label": "Facebook URL",
+          "placeholder": "https://www.facebook.com/yourpage"
+        },
+        "type": "Text"
+      },
+      "twitterUrl": {
+        "config": {
+          "label": "X (Twitter) URL",
+          "placeholder": "https://x.com/yourhandle"
+        },
+        "type": "Text"
+      },
+      "linkedinUrl": {
+        "config": {
+          "label": "LinkedIn URL",
+          "placeholder": "https://www.linkedin.com/company/yourcompany"
+        },
+        "type": "Text"
+      },
+      "instagramUrl": {
+        "config": {
+          "label": "Instagram URL",
+          "placeholder": "https://www.instagram.com/yourhandle"
+        },
+        "type": "Text"
+      },
+      "privacy_link": {
+        "config": {
+          "allowTargetBlank": true,
+          "allowText": true,
+          "customtypes": [
+            "page"
+          ],
+          "label": "Privacy Policy link"
+        },
+        "type": "Link"
+      },
+      "terms_link": {
+        "config": {
+          "allowTargetBlank": true,
+          "allowText": true,
+          "customtypes": [
+            "page"
+          ],
+          "label": "Terms of Service link"
+        },
+        "type": "Link"
+      },
+      "cookie_page_link": {
+        "config": {
+          "allowTargetBlank": true,
+          "allowText": true,
+          "customtypes": [
+            "page"
+          ],
+          "label": "Cookie Consent page link"
+        },
+        "type": "Link"
+      }
+    },
+    "Cookies": {
+      "cookie_tab_consent": {
+        "config": {
+          "label": "Consent tab label",
+          "placeholder": "Privola"
+        },
+        "type": "Text"
+      },
+      "cookie_tab_details": {
+        "config": {
+          "label": "Details tab label",
+          "placeholder": "Pojedinosti"
+        },
+        "type": "Text"
+      },
+      "cookie_tab_about": {
+        "config": {
+          "label": "About tab label",
+          "placeholder": "O nama"
+        },
+        "type": "Text"
+      },
+      "cookie_consent_body": {
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Consent body",
+          "multi": "paragraph,strong,em,hyperlink",
+          "placeholder": "Short intro on the Consent tab"
+        },
+        "type": "StructuredText"
+      },
+      "cookie_details_body": {
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Details body",
+          "multi": "paragraph,strong,em,hyperlink",
+          "placeholder": "Intro text above cookie categories"
+        },
+        "type": "StructuredText"
+      },
+      "cookie_about_body": {
+        "config": {
+          "allowTargetBlank": true,
+          "label": "About body",
+          "multi": "paragraph,strong,em,hyperlink",
+          "placeholder": "What are cookies / about text"
+        },
+        "type": "StructuredText"
+      },
+      "cookie_customize_label": {
+        "config": {
+          "label": "Customize button",
+          "placeholder": "Prilagodi"
+        },
+        "type": "Text"
+      },
+      "cookie_allow_label": {
+        "config": {
+          "label": "Allow all button",
+          "placeholder": "Dopusti sve"
+        },
+        "type": "Text"
+      },
+      "cookie_deny_label": {
+        "config": {
+          "label": "Necessary only button",
+          "placeholder": "Samo nužno"
+        },
+        "type": "Text"
+      },
+      "cookie_save_label": {
+        "config": {
+          "label": "Save selection button",
+          "placeholder": "Dopusti odabrano"
+        },
+        "type": "Text"
+      },
+      "cookie_title": {
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Consent title",
+          "placeholder": "Ova web-stranica koristi kolačiće",
+          "single": "paragraph,strong,em,hyperlink"
+        },
+        "type": "StructuredText"
+      }
+    }
+  },
+  "label": "Settings",
+  "repeatable": false,
+  "status": true
+}

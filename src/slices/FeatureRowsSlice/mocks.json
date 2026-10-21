@@ -1,0 +1,114 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"rows": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "7dc07b81-7abf-4465-aafb-0a47cdcf30ac",
+						"value": [
+							[
+								"button_label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Learn more"
+								}
+							],
+							[
+								"button_link",
+								{
+									"key": "f6549e99-64f4-4eab-a049-9dda57048e64",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://prismic.io"
+									}
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "We help you find and attract the right talent for your organization."
+											},
+											"type": "paragraph"
+										}
+									]
+								}
+							],
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"content": {
+												"text": "Strategic Talent Acquisition"
+											},
+											"type": "heading3"
+										}
+									]
+								}
+							],
+							[
+								"image",
+								{
+									"alt": "Talent acquisition",
+									"edit": {
+										"background": "transparent",
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"zoom": 1
+									},
+									"height": 4560,
+									"origin": {
+										"height": 4560,
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+										"width": 3648
+									},
+									"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+									"width": 3648,
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							]
+						]
+					}
+				]
+			},
+			"section_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "How We Partner With You At Every Step"
+						},
+						"type": "heading2"
+					}
+				]
+			},
+			"sub_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"text": "Our Approach"
+						},
+						"type": "paragraph"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	}
+]

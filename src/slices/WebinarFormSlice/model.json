@@ -1,0 +1,56 @@
+{
+  "id": "webinar_form_slice",
+  "type": "SharedSlice",
+  "name": "WebinarFormSlice",
+  "description": "Webinar registration form connected to Brevo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Prijavite se na sljedeći webinar"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": "Ispunite obrazac i obavijestit ćemo vas o nadolazećim webinarima."
+          }
+        },
+        "submit_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit Button Label",
+            "placeholder": "Prijavi se"
+          }
+        },
+        "brevo_list_id": {
+          "type": "Text",
+          "config": {
+            "label": "Brevo List ID",
+            "placeholder": "12"
+          }
+        },
+        "consent_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Consent Label",
+            "placeholder": "Slažem se s uvjetima korištenja i politikom privatnosti.",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

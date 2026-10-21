@@ -1,0 +1,112 @@
+{
+  "format": "custom",
+  "id": "navigation",
+  "json": {
+    "Main": {
+      "links": {
+        "config": {
+          "fields": {
+            "label": {
+              "config": {
+                "allowTargetBlank": false,
+                "label": "Label",
+                "placeholder": "Optional - Label for the link",
+                "single": "heading3"
+              },
+              "type": "StructuredText"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "Link for navigation item (leave empty if this item is a dropdown-only trigger)",
+                "select": null
+              },
+              "type": "Link"
+            }
+          },
+          "label": "Links"
+        },
+        "type": "Group"
+      },
+      "sub_links": {
+        "config": {
+          "fields": {
+            "parent_label": {
+              "config": {
+                "label": "Parent Label",
+                "placeholder": "Must match exactly the parent link label text (e.g. 'Services')"
+              },
+              "type": "Text"
+            },
+            "label": {
+              "config": {
+                "allowTargetBlank": false,
+                "label": "Label",
+                "placeholder": "Sub item label",
+                "single": "heading3"
+              },
+              "type": "StructuredText"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "Link for this sub-item",
+                "select": null
+              },
+              "type": "Link"
+            }
+          },
+          "label": "Sub Links (Dropdown Items)"
+        },
+        "type": "Group"
+      },
+      "cta_label": {
+        "config": {
+          "label": "CTA Button Label",
+          "placeholder": "e.g. Kontaktirajte nas"
+        },
+        "type": "Text"
+      },
+      "cta_link": {
+        "config": {
+          "label": "CTA Button Link",
+          "placeholder": "Link for the header CTA button",
+          "select": null
+        },
+        "type": "Link"
+      },
+      "nested_links": {
+        "config": {
+          "fields": {
+            "parent_label": {
+              "config": {
+                "label": "Parent Label",
+                "placeholder": "Must match exactly the parent sub-link label text (e.g. 'Testovi')"
+              },
+              "type": "Text"
+            },
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": "Nested item label",
+                "single": "heading3"
+              },
+              "type": "StructuredText"
+            },
+            "link": {
+              "config": {
+                "label": "Link"
+              },
+              "type": "Link"
+            }
+          },
+          "label": "Nested Links (3rd Level)"
+        },
+        "type": "Group"
+      }
+    }
+  },
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true
+}

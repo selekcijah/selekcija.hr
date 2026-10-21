@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title -->
+        <title>Timido - HR Services HTML Template</title>
+        <link rel="icon" type="image/png" href="images/favicon.svg">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/prism.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-offset="70">
+
+        <!-- Sidebar -->
+        <div class="sidebar-area">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <ul>
+                        <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                        <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+                        <li><a href="#head_css_structure" title="HEAD CSS Structure">HEAD CSS Structure</a></li>
+                        <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
+                        <li><a href="#real_demo_images" title="Real Demo Images">Real Demo Images</a></li>
+                        <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+                        <li><a href="#responsive_breakpoints" title="Responsive Breakpoints">Responsive Breakpoints</a></li>
+                        <li><a href="#fonts_used" title="Fonts Used">Fonts Used</a></li>
+                        <li><a href="#color_change_option" title="Main Color Change Option">Main Color Change</a></li>
+                        <li><a href="#run_scss" title="How to Run SCSS">How to Run SCSS File</a></li>
+                        <li><a href="#slider_edit" title="Swiper Slider Edit Option">Swiper Slider Edit</a></li>
+                        <li><a href="#scroll_animation" title="How to Hide Scroll Animation">Scroll Animation</a></li>
+                        <li><a href="#speed_optimization" title="Speed Optimization">Speed Optimization</a></li>
+                        <li><a href="#google_maps" title="How to Add a Google Maps">Google Maps</a></li>
+                        <li><a href="#credits" title="Credits">Credits</a></li>
+                        <li><a href="#supports" title="Support">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar -->
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Banner -->
+            <div class="banner-area">
+                <h1><strong>Timido</strong> - Documentation</h1>
+            </div>
+            <!-- End Banner -->
+
+            <!-- Content -->
+            <div class="content-area">
+
+                <!-- Introduction -->
+                <div id="introduction" class="ptb-70">
+                    <h2>Introduction</h2>
+                    <p>
+                        <strong>Timido</strong> - HR Services HTML Template
+                    </p>
+                    <h6 style="margin-top: 20px; margin-bottom: 18px;"><strong>Template Features:</strong></h6>
+                    <ul class="mb-0">
+                        <li><strong>04+ Demo Variations -</strong> <a href="https://preview.envytheme.com/timido-html/" rel="nofollow" target="_blank"><u>Click to View Demo</u></a></li>
+                        <li><strong>28+ Inner Pages Available</strong> – Covers all essential pages.</li>
+                        <li><strong>Bootstrap 5.3.8</strong> – Fully responsive and consistent layout framework.</li>
+                        <li><strong>Sass</strong> – Simple styling and effortless customization.</li>
+                        <li><strong>npm</strong> – Quick and easy package management.</li>
+                        <li><strong>GSAP</strong> – Effortlessly animate anything JS can touch.</li>
+                        <li><strong>Swiper Slider</strong> – Smooth and responsive sliders.</li>
+                        <li><strong>scrollCue</strong> – Add beautiful, attention-grabbing CSS animations with ease.</li>
+                        <li><strong>RemixIcon & Flaticon</strong> – Crisp, modern icon set included.</li>
+                        <li><strong>Fullscreen Lightbox</strong> – Elegant lightbox for images and videos.</li>
+                        <li><strong>simpleParallax</strong> – Lightweight JS parallax effects for images and videos.</li>
+                        <li><strong>Responsive Layout</strong> – Looks great on all devices.</li>
+                        <li><strong>Retina Ready</strong> – Sharp visuals on HD displays.</li>
+                        <li><strong>Google Fonts</strong> – Beautiful, professional typography.</li>
+                        <li><strong>SEO Optimized</strong> – Clean, search-friendly code.</li>
+                        <li><strong>Fast & Lightweight</strong> – Optimized for top performance.</li>
+                        <li><strong>Clean & Professional Code</strong> – Developer-friendly and well-documented.</li>
+                        <li><strong>W3C Validated</strong> – Meets modern web standards.</li>
+                        <li><strong>Cross-Browser Compatible</strong> – Works smoothly everywhere.</li>
+                        <li><strong>Easy to Customize</strong> – Flexible and developer-ready.</li>
+                        <li><strong>Detailed Documentation</strong> – Step-by-step setup guide included.</li>
+                    </ul>
+                </div>
+                <!-- End Introduction -->
+
+                <!-- Getting Started -->
+                <div id="getting_started">
+                    <h2>Getting Started</h2>
+                    <p>The template folder <strong>timido</strong> is available inside the downloaded zip file. Need to unzip the zip file to find the template also the documentation folder.</p>
+                    <p>The <strong>files and folders structure</strong> is similar to the following:</p>
+                    <ol>
+                        <li><strong>assets/css</strong> — folder with CSS files.</li>
+                        <li><strong>assets/scss</strong> — folder with scss files.</li>
+                        <li><strong>assets/fonts</strong> — folder with fonts files.</li>
+                        <li><strong>assets/images</strong> — folder with image files.</li>
+                        <li><strong>assets/js</strong> — folder with JavaScript files.</li>
+                    </ol>
+                    <p>Upload the template files to the server with the help of one of the FTP-clients like FileZilla.</p>
+					<h6 style="margin-top: 20px; margin-bottom: 12px;"><strong>Files Edit & Upload:</strong></h6>
+                    <p>Individual pages can be customized by opening in a code editor such as VS Code. Once all the customization completed then to make the website live you need to upload the updated project files to the hosting server for your own domain. The files can be uploaded using FTP client such as FileZilla.</p>
+                </div>
+                <!-- End Getting Started -->
+
+                <!-- HEAD CSS Structure -->
+                <div id="head_css_structure" class="ptb-70">
+                    <h2>HEAD CSS Structure</h2>
+                    <p>Followings are the <strong>css</strong> files which loaded inside the <strong>Head Section</strong>:</p>
+<pre class="line-numbers mb-0">
+<code class="language-markup">
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    
+    &lt;!-- Link of CSS Files --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/animate.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/swiper-bundle.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/flaticon_mycollection.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/remixicon.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/scrollCue.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/style.css&quot;&gt;
+    
+    &lt;title&gt;Timido - HR Services HTML Template&lt;/title&gt;
+
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;assets/images/favicon.svg&quot;&gt;
+&lt;/head&gt;
+</code>
+</pre>
+                    <!-- <p>Followings are the <strong>rtl</strong> files which loaded inside the <strong>Head Section</strong>:</p>
+<pre class="line-numbers mb-0">
+<code class="language-markup">
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    
+    &lt;!-- Link of CSS Files --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/animate.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/swiper-bundle.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/flaticon_mycollection.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/remixicon.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/scrollCue.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/style.css&quot;&gt;
+    
+    &lt;title&gt;Timido - HR Services HTML Template&lt;/title&gt;
+
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;assets/images/favicon.svg&quot;&gt;
+&lt;/head&gt;
+</code>
+</pre> -->
+                </div>
+                <!-- End HEAD CSS Structure -->
+
+                <!-- Javascript Structure -->
+                <div id="javascript_structure">
+                    <h2>Javascript Structure</h2>
+                    <p>Followings are the <strong>JS</strong> files which loaded before the end of <strong>HEAD or BODY Section:</strong>.</p>
+<pre class="line-numbers mb-0">
+<code class="language-markup">
+&lt;!-- Link of JS Files --&gt;
+&lt;script src=&quot;assets/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/swiper-bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/scrollCue.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/simpleParallax.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/fslightbox.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/gsap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/ScrollTrigger.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/SplitText.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;assets/js/main.js&quot;&gt;&lt;/script&gt;
+</code>
+</pre>
+                </div>
+                <!-- End Javascript Structure -->
+
+                <!-- Do You Want Real Demo Images? -->
+                <div id="real_demo_images" class="ptb-70">
+                    <h2>Do You Want Real Demo Images?</h2>
+                    <p>Due to the <strong>Envato Policy</strong>, we are unable to include demo images inside the download bundle so for demo images please submit a ticket in <a href="https://support.envytheme.com/" target="_blank">https://support.envytheme.com/</a></p>
+                </div>
+                <!-- End Do You Want Real Demo Images? -->
+
+                <!-- HTML Structure -->
+                <div id="html_structure">
+                    <h2>HTML Structure</h2>
+                    <p>The <strong>Timido</strong> is a responsive template and is based on the <strong>Bootstrap Framework</strong>. For more information you can check the <strong><a target="_blank" href="https://getbootstrap.com/">Bootstrap CSS</a></strong>.</p>
+                    <p>The general template structure is the same throughout the template and each of the part is under a section with a section id name. Here is the <strong>general structure:</strong></p>
+<pre class="line-numbers mb-0">
+<code class="language-markup">
+&lt;!-- Start Process Area --&gt;
+&lt;div class=&quot;process-area ptb-120&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;section-title text-center section-title-animation animation-style1&quot;&gt;
+            &lt;span class=&quot;sub wrap2&quot;&gt;Process&lt;/span&gt;
+            &lt;h2 class=&quot;title-animation&quot;&gt;Why Our Process Delivers Better Results&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row justify-content-center g-5&quot; data-cues=&quot;slideInUp&quot; data-duration=&quot;1000&quot;&gt;
+            &lt;div class=&quot;col-lg-3 col-sm-6&quot;&gt;
+                &lt;div class=&quot;process-card&quot;&gt;
+                    &lt;div class=&quot;icon&quot;&gt;
+                        &lt;i class=&quot;flaticon-timer&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;h3&gt;Faster &lt;span&gt;Time-to-Hire&lt;/span&gt;&lt;/h3&gt;
+                    &lt;p&gt;Our efficient process cuts hiring time from 45 to 18 days without compromising quality.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-lg-3 col-sm-6&quot;&gt;
+                &lt;div class=&quot;process-card&quot;&gt;
+                    &lt;div class=&quot;icon&quot;&gt;
+                        &lt;i class=&quot;flaticon-continuous-improvement&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;h3&gt;Higher &lt;span&gt;Retention Rates&lt;/span&gt;&lt;/h3&gt;
+                    &lt;p&gt;Candidates placed through us stay 85% longer after 12 months than the industry average.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-lg-3 col-sm-6&quot;&gt;
+                &lt;div class=&quot;process-card&quot;&gt;
+                    &lt;div class=&quot;icon&quot;&gt;
+                        &lt;i class=&quot;flaticon-diversity&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;h3&gt;Cultural &lt;span&gt;Fit Guarantee&lt;/span&gt;&lt;/h3&gt;
+                    &lt;p&gt;Our assessment tools achieve 94% cultural fit between candidates and clients.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-lg-3 col-sm-6&quot;&gt;
+                &lt;div class=&quot;process-card&quot;&gt;
+                    &lt;div class=&quot;icon&quot;&gt;
+                        &lt;i class=&quot;flaticon-pie-chart&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;h3&gt;Continuous &lt;span&gt;Improvement&lt;/span&gt;&lt;/h3&gt;
+                    &lt;p&gt;We continuously refine our process using data and feedback to deliver superior results.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- End Process Area --&gt;
+</code>
+</pre>
+                </div>
+                <!-- End HTML Structure -->
+
+                <!-- Responsive Breakpoints -->
+                <div id="responsive_breakpoints" class="pt-70">
+                    <h2>Responsive Breakpoints</h2>
+                    <p>The <strong>Timido</strong> is a responsive template and is based on the <strong>Bootstrap Framework</strong>. For more information you can check the <strong><a target="_blank" href="https://getbootstrap.com/">Bootstrap CSS</a></strong>.</p>
+<pre class="line-numbers mb-0">
+<code class="language-markup">
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* Min width 1400px to Max width 1500px */
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+}
+
+/* Min width 1900px */
+@media only screen and (min-width: 1900px) {
+
+}
+</code>
+</pre>
+                </div>
+                <!-- End Responsive Breakpoints -->
+
+                <!-- Fonts Used -->
+                <div id="fonts_used" class="ptb-70">
+                    <h2>Fonts Used</h2>
+                    <p>By default, the template loads <strong>Lexend</strong> and <strong>Plus Jakarta Sans</strong> font from Google Web Font Services. The font can be changed based on the website needs. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
+                    <p>Font code can be found in the &quot;<strong>_variables.scss</strong>&quot;. File path: assets/scss/_variables.scss</p>
+<pre class="line-numbers">
+<code class="language-css">
+// Body Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+// Heading Fonts
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Default Fonts Style */
+$main-font-family: "Lexend", sans-serif;
+$heading-font-family: "Plus Jakarta Sans", sans-serif;
+</code>
+</pre>
+                    <p><b>Note:</b> After SCSS file run then it will be work</p>
+                </div>
+                <!-- End Fonts Used -->
+
+                <!-- Main Color Change Option -->
+                <div id="color_change_option">
+					<h2>Main Color Change Option</h2>
+					<p>File path: <strong>assets/scss/_variables.scss</strong></p>
+<pre class="line-numbers mb-3">
+<code class="language-css">
+$primary: #BAE40E;
+$secondaryColor: #C5E930;
+$blackColor: #010101;
+$bodyTextColor: #464646; 
+$whiteColor: #ffffff; 
+$darkColor: #000000;
+</code>
+</pre>
+                    <p><b>Note:</b> After SCSS file run then it will be work. <a href="#run_scss">How to Run SCSS File</a></p>
+                </div>
+                <!-- End Main Color Change Option -->
+
+                <!-- How to Run SCSS File -->
+                <div id="run_scss" class="ptb-70">
+                    <h2>How to Run SCSS File</h2>
+                    <p>Please open the file Visual Studio Code Editor. Make sure <strong>node.js</strong> is available in your system.</p>
+<pre class="line-numbers">
+<code class="language-css">
+<p><strong># Install Sass globally</strong></p>
+<p>npm install -g sass</p>
+
+<p><strong># Install NPM</strong></p>
+<p>npm install</p>
+
+<p><strong># Watch your custom Sass for changes and compile it to CSS</strong></p>
+<p>npm run sass</p>
+</code>
+</pre>
+                    <p><b>Note:</b> Go to <strong>package.json</strong> file. You will find more SASS compiler command.</p>
+                </div>
+                <!-- End How to Run SCSS File -->
+
+                <!-- Swiper Slider Edit -->
+                <div id="slider_edit" class="pb-70">
+                    <h2>Swiper Slider Edit Option</h2>
+					<p>File path: <strong>assets/js/main.js</strong></p>
+<pre class="line-numbers mb-3">
+<code class="language-css">
+// Approach Slider JS
+var SwiperTraveler = new Swiper(".approach-slider", {
+    loop: true,
+    spaceBetween: 25,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        576: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        992: {
+            slidesPerView: 2
+        },
+        1200: {
+            slidesPerView: 3
+        },
+    }
+});
+</code>
+</pre>
+                    <p>
+                        <strong>More Info please browser the link: <a href="https://swiperjs.com/get-started" target="_blank">Swiper Slider Docs Options</a></strong>
+                    </p>
+                </div>
+                <!-- End Swiper Slider Edit -->
+
+                <!-- Scroll Animation -->
+                <div id="scroll_animation" class="pb-70">
+                    <h2>How to Hide Scroll Animation</h2>
+                    <p>Please remove or comment the below code file path: <strong>assets/js/main.js</strong></p>
+<pre class="line-numbers mb-3">
+<code class="language-css">
+// scrollCue
+scrollCue.init();
+</code>
+</pre>
+                    <p>
+                        <strong>More Info please browser the link: <a href="https://prjct-samwest.github.io/scrollCue/" target="_blank">scrollCue Docs</a></strong>
+                    </p>
+                </div>
+                <!-- End Scroll Animation -->
+
+                <!-- GSAP Animation -->
+                <div id="scroll_animation">
+                    <h2>How to Hide GSAP Animation</h2>
+                    <p>Please remove or comment the below code file path: <strong>assets/js/main.js</strong></p>
+<pre class="line-numbers mb-3">
+<code class="language-css">
+// Animation GSAP
+function all_title_animation() {
+    var tg_var = jQuery(".section-title-animation");
+    if (!tg_var.length) {
+        return;
+    }
+    const quotes = document.querySelectorAll(".section-title-animation .title-animation");
+    quotes.forEach((quote) => {
+        if (quote.animation) {
+            quote.animation.progress(1).kill();
+            quote.split.revert();
+        }
+        var getclass = quote.closest(".section-title-animation").className;
+        var animation = getclass.split("animation-");
+        if (animation[1] == "style4") return;
+        quote.split = new SplitText(quote, {
+            type: "lines,words,chars",
+            linesClass: "split-line",
+        });
+        gsap.set(quote, {
+            perspective: 400,
+        });
+        if (animation[1] == "style1") {
+            gsap.set(quote.split.chars, {
+            opacity: 0,
+                x: "50",
+            });
+        }
+        if (animation[1] == "style2") {
+            gsap.set(quote.split.chars, {
+                opacity: 0,
+                y: "90%",
+                rotateX: "-40deg",
+            });
+        }
+        if (animation[1] == "style3") {
+            gsap.set(quote.split.chars, {
+                opacity: 0,
+            });
+        }
+        quote.animation = gsap.to(quote.split.chars, {
+            scrollTrigger: {
+                trigger: quote,
+                start: "top 90%",
+            },
+            x: "0",
+            y: "0",
+            rotateX: "0",
+            opacity: 1,
+            duration: 1,
+            ease: Back.easeOut,
+            stagger: 0.02,
+        });
+    });
+}
+ScrollTrigger.addEventListener("refresh", all_title_animation);
+</code>
+</pre>
+                    <p>
+                        <strong>More Info please browser the link: <a href="https://gsap.com/" target="_blank">gsap.com</a></strong>
+                    </p>
+                </div>
+                <!-- End GSAP Animation -->
+                
+                <!-- Speed Optimization -->
+                <div id="speed_optimization" class="ptb-70">
+                    <h2>Speed Optimization</h2>
+					<p>Please optimize all images KB, MB also, use the image size following by placeholder file path: <strong>assets/images/..</strong></p>
+					<p>- <a href="https://tinypng.com/" target="_blank">Tinypng</a></p>
+                    <p>Please minify all CSS file path: assets/css/..</p>
+					<p>- <a href="https://cssminifier.com/" target="_blank">CSS Minifier</a></p>
+					<p>Please minify all JS file path: assets/js/..</p>
+					<p>- <a href="https://javascript-minifier.com/" target="_blank">Javascript Minifier</a></p>
+                </div>
+                <!-- End Speed Optimization -->
+
+                <!-- How to Change Image? -->
+                <div id="how_to_change_image">
+                    <h2>How to Change Image?</h2>
+					<p>Please go to the image file path: <strong>assets/images/...</strong> replace the image which one you want following placeholder image size & name</p>
+                </div>
+                <!-- End How to Change Image? -->
+				 
+                <!-- Icon Edit -->
+				<div class="ptb-70">
+                    <h2>How to Edit Especially For Flaticon</h2>
+					<p>You won't able to add new Flaticon except existing but you can if you want to add from scratch but existing will not work and it's the feature of Flaticon. <a href="https://www.flaticon.com/" target="_blank">flaticon.com</a></a>
+                </div>
+                <!-- End Icon Edit -->
+
+                <!-- Google Maps -->
+				<div id="google_maps">
+                    <h2>How to Add a Google Maps to The Website?</h2>
+					<p>1. Please go to <a href="https://www.google.com/maps/@24.9045273,91.8611106,15z" target="_blank">maps.google.com</a>. Type the location in the search box and click on <strong>Share</strong>.</p>
+					<img src="images/maps1.jpg" alt="image">
+					<br>
+					<br>
+					<p>2. In the new window click on <strong>Embed a map</strong> and copy the HTML code of the map. After that add the HTML file.</p>
+					<img src="images/maps2.jpg" alt="image">
+                </div>
+                <!-- End Google Maps -->
+				 
+                <!-- New Updates -->
+				<div class="ptb-70">
+                    <h2>How to Add New Updates of Existing Template</h2>
+					<p>After a certain time, we will update our project based on the latest technology but in your template, you need to update on your own if you want.</p>
+                </div>
+                <!-- End New Updates -->
+
+                <!-- Credits -->
+                <div id="credits">
+                    <h2>Credits</h2>
+                    <p><strong>Note:</strong> All <strong>images</strong> are used for <strong>preview</strong> purpose only and <strong>not included</strong> in the <strong>final purchase</strong> files.</p>
+                    <p><strong>Images from:</strong><br />
+                        <a target="_blank" href="https://www.freepik.com/">https://freepik.com/</a><br />
+                        <a target="_blank" href="https://pixabay.com/">https://pixabay.com/</a><br />
+                        <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a>
+                    </p>
+                    <p><strong>Google Fonts:</strong><br/>
+						<a href="https://fonts.google.com/specimen/Lexend?query=Lexend" target="_blank">Lexend</a>
+                        <br/>
+                        <a href="https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=Plus+Jakarta+Sans" target="_blank">Plus Jakarta Sans</a>
+                        <br/>
+					</p>
+                    <p><strong>IconFont</strong><br>
+						<a href="https://remixicon.com/" target="_blank">RemixIcon</a><br>
+						<a href="https://www.flaticon.com/" target="_blank">Flaticon</a><br>
+					</p>
+                </div>
+                <!-- End Credits -->
+
+                <!-- Support -->
+                <div class="ptb-70" id="supports">
+                    <h2>Support</h2>
+                    <h6 class="mb-3"><strong>24-Hour Turnaround Support:</strong></h6>
+                    <ul>
+                        <li>Quick, Dedicated & Professional Support!</li>
+                        <li>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_blank">EnvyTheme Support System</a>.</li>
+                        <li>For any pre-purchase query, please use live chat on the item demo site also, email, and the item's comment section on ThemeForest. Thanks!</li>
+                        <li><p>Email: <a href="mailto:hello@envytheme.com">hello@envytheme.com</a></p></li>
+                    </ul>
+                </div>
+                <!-- End Support -->
+
+            </div>
+            <!-- End Content -->
+
+            <!-- Footer -->
+            <footer>
+                <div class="d-flex justify-content-between">
+                    <p>© Timido is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                    <a href="https://support.envytheme.com/" target="_blank">Contact Us</a>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+        </div>
+        <!-- End Main Content -->
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/prism.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

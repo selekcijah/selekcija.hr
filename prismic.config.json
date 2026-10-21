@@ -1,0 +1,12 @@
+{
+  "repositoryName": "selekcija",
+  "libraries": [
+    "./src/slices"
+  ],
+  "routes": [
+    {
+      "type": "page",
+      "path": "/:uid"
+    }
+  ]
+}

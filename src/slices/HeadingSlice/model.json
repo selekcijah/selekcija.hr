@@ -1,0 +1,57 @@
+{
+  "id": "heading_slice",
+  "type": "SharedSlice",
+  "name": "HeadingSlice",
+  "description": "Standalone heading with subtitle, alignment, level and color options",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Standalone heading block",
+      "imageUrl": "",
+      "primary": {
+        "subtitle": {
+          "type": "Text",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "Section label"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "A heading that fits the page"
+          }
+        },
+        "heading_level": {
+          "type": "Select",
+          "config": {
+            "label": "Heading Level",
+            "options": ["h1", "h2", "h3"],
+            "default_value": "h2"
+          }
+        },
+        "alignment": {
+          "type": "Select",
+          "config": {
+            "label": "Alignment",
+            "options": ["left", "center", "right"],
+            "default_value": "left"
+          }
+        },
+        "color": {
+          "type": "Select",
+          "config": {
+            "label": "Color",
+            "options": ["dark", "white", "primary", "secondary"],
+            "default_value": "dark"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

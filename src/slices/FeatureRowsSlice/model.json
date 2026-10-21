@@ -1,0 +1,83 @@
+{
+  "id": "feature_rows_slice",
+  "type": "SharedSlice",
+  "name": "FeatureRowsSlice",
+  "description": "Alternating feature rows with image, heading, description, and CTA button",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Alternating image/content rows",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Our Approach",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "section_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Section Heading",
+            "placeholder": "How we partner with you",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "rows": {
+          "type": "Group",
+          "config": {
+            "label": "Rows",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "Feature heading",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Describe this feature or benefit...",
+                  "allowTargetBlank": false,
+                  "multi": "paragraph,list-item,strong,em,hyperlink"
+                }
+              },
+              "button_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Label",
+                  "placeholder": "Learn More"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

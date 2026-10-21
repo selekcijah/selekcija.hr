@@ -1,0 +1,42 @@
+{
+  "description": "Auto-scrolling client logos marquee",
+  "id": "clients_slice",
+  "name": "ClientsSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Our Valuable Clients"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Client Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo_name": {
+          "type": "Text",
+          "config": {
+            "label": "Client Name",
+            "placeholder": "Company Name"
+          }
+        }
+      }
+    }
+  ]
+}

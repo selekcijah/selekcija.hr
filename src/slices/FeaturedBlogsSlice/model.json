@@ -1,0 +1,40 @@
+{
+  "description": "Featured blog posts with sticky heading sidebar",
+  "id": "featured_blogs_slice",
+  "name": "FeaturedBlogsSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "sub_label": {
+          "type": "Text",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Our Blog"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "HR Insights And Trends To Help Your Business Grow"
+          }
+        },
+        "post_count": {
+          "type": "Number",
+          "config": {
+            "label": "Number of Posts",
+            "placeholder": "3"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

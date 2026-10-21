@@ -1,0 +1,40 @@
+{
+  "description": "Full-width YouTube video embed with lazy-loaded thumbnail",
+  "id": "video_slice",
+  "name": "VideoSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Full-width YouTube embed",
+      "primary": {
+        "youtube_url": {
+          "type": "Text",
+          "config": {
+            "label": "YouTube URL",
+            "placeholder": "https://www.youtube.com/watch?v=..."
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Video Title",
+            "placeholder": "Optional video title"
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption",
+            "placeholder": "Optional caption below the video"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

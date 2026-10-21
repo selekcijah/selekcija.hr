@@ -1,0 +1,178 @@
+{
+  "description": "Our Story section with heading, mission/vision blocks, images and years counter",
+  "id": "our_story_slice",
+  "name": "OurStorySlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "subheading": {
+          "type": "Text",
+          "config": {
+            "label": "Subheading",
+            "placeholder": "Our Story"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "single": "heading2,em,strong"
+          }
+        },
+        "mission_title": {
+          "type": "Text",
+          "config": {
+            "label": "Mission Title",
+            "placeholder": "Our Mission"
+          }
+        },
+        "mission_text": {
+          "type": "Text",
+          "config": {
+            "label": "Mission Text"
+          }
+        },
+        "vision_title": {
+          "type": "Text",
+          "config": {
+            "label": "Vision Title",
+            "placeholder": "Our Vision"
+          }
+        },
+        "vision_text": {
+          "type": "Text",
+          "config": {
+            "label": "Vision Text"
+          }
+        },
+        "more_link": {
+          "type": "Link",
+          "config": {
+            "label": "More About Link",
+            "allowText": true,
+            "select": null
+          }
+        },
+        "years": {
+          "type": "Number",
+          "config": {
+            "label": "Years Number",
+            "placeholder": "15"
+          }
+        },
+        "years_label": {
+          "type": "Text",
+          "config": {
+            "label": "Years Label",
+            "placeholder": "Years Of Excellence"
+          }
+        },
+        "image_1": {
+          "type": "Image",
+          "config": {
+            "label": "Image 1"
+          }
+        },
+        "image_2": {
+          "type": "Image",
+          "config": {
+            "label": "Image 2"
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Blue accent variation",
+      "primary": {
+        "subheading": {
+          "type": "Text",
+          "config": {
+            "label": "Subheading",
+            "placeholder": "Our Story"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "single": "heading2,em,strong"
+          }
+        },
+        "mission_title": {
+          "type": "Text",
+          "config": {
+            "label": "Mission Title",
+            "placeholder": "Our Mission"
+          }
+        },
+        "mission_text": {
+          "type": "Text",
+          "config": {
+            "label": "Mission Text"
+          }
+        },
+        "vision_title": {
+          "type": "Text",
+          "config": {
+            "label": "Vision Title",
+            "placeholder": "Our Vision"
+          }
+        },
+        "vision_text": {
+          "type": "Text",
+          "config": {
+            "label": "Vision Text"
+          }
+        },
+        "more_link": {
+          "type": "Link",
+          "config": {
+            "label": "More About Link",
+            "allowText": true,
+            "select": null
+          }
+        },
+        "years": {
+          "type": "Number",
+          "config": {
+            "label": "Years Number",
+            "placeholder": "15"
+          }
+        },
+        "years_label": {
+          "type": "Text",
+          "config": {
+            "label": "Years Label",
+            "placeholder": "Years Of Excellence"
+          }
+        },
+        "image_1": {
+          "type": "Image",
+          "config": {
+            "label": "Image 1"
+          }
+        },
+        "image_2": {
+          "type": "Image",
+          "config": {
+            "label": "Image 2"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"brevo_list_id": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "12"
+			},
+			"consent_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"spans": [],
+							"text": "Slažem se s uvjetima korištenja i politikom privatnosti."
+						},
+						"type": "paragraph"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Ispunite obrazac i obavijestit ćemo vas o nadolazećim webinarima."
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Prijavite se na sljedeći webinar"
+			},
+			"submit_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Prijavi se"
+			}
+		},
+		"variation": "default"
+	}
+]

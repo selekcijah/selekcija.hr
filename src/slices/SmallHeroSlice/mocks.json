@@ -1,0 +1,21 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"items": [],
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"content": {
+							"spans": [],
+							"text": "Case Studies"
+						},
+						"type": "heading2"
+					}
+				]
+			}
+		},
+		"variation": "default"
+	}
+]

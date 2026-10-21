@@ -1,0 +1,114 @@
+{
+  "description": "Contact section with info panel, offices list, and contact form",
+  "id": "contact_slice",
+  "name": "ContactSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default variation",
+      "docURL": "...",
+      "id": "default",
+      "imageUrl": "",
+      "name": "Default",
+      "primary": {
+        "info_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Info Heading",
+            "placeholder": "Get In Touch"
+          }
+        },
+        "form_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Form Heading",
+            "placeholder": "Send Us A Message"
+          }
+        },
+        "form_description": {
+          "type": "Text",
+          "config": {
+            "label": "Form Description",
+            "placeholder": "Fill out the form below and our team will get back to you within 24 hours."
+          }
+        },
+        "submit_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit Button Label",
+            "placeholder": "Send Message"
+          }
+        },
+        "role_field_label": {
+          "type": "Text",
+          "config": {
+            "label": "Role Field Label",
+            "placeholder": "Vaša pozicija u tvrtki:"
+          }
+        },
+        "role_options": {
+          "type": "Group",
+          "config": {
+            "label": "Role Dropdown Options",
+            "fields": {
+              "role_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Role Label",
+                  "placeholder": "Vlasnik / Direktor"
+                }
+              },
+              "role_value": {
+                "type": "Text",
+                "config": {
+                  "label": "Role Value",
+                  "placeholder": "vlasnik-direktor"
+                }
+              }
+            }
+          }
+        },
+        "show_map": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Map",
+            "default_value": true,
+            "placeholder_true": "Show",
+            "placeholder_false": "Hide"
+          }
+        },
+        "map_embed_url": {
+          "type": "Text",
+          "config": {
+            "label": "Google Maps Embed URL",
+            "placeholder": "https://www.google.com/maps/embed?..."
+          }
+        }
+      },
+      "items": {
+        "office_name": {
+          "type": "Text",
+          "config": {
+            "label": "Office Name",
+            "placeholder": "New York Headquarters"
+          }
+        },
+        "office_address": {
+          "type": "Text",
+          "config": {
+            "label": "Office Address",
+            "placeholder": "753 Business Ave, Suite 500, New York, NY 10001"
+          }
+        },
+        "office_hours": {
+          "type": "Text",
+          "config": {
+            "label": "Office Hours",
+            "placeholder": "Mon-Fri: 9:00 AM - 6:00 PM"
+          }
+        }
+      },
+      "version": "initial"
+    }
+  ]
+}

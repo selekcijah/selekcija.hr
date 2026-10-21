@@ -1,0 +1,62 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "Spremni za transformaciju vašeg radnog mjesta?",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "FieldContent",
+				"value": "Pridružite se tvrtkama koje su unaprijedile HR uz stručno savjetovanje.",
+				"type": "Text"
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "Počnite odmah",
+				"type": "Text"
+			},
+			"button_link": {
+				"key": "a913f05d-926d-4547-8452-d48d7a458164",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://selekcija.hr/kontakt"
+				}
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "greenBg",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "Spremni za transformaciju vašeg radnog mjesta?",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "FieldContent",
+				"value": "Pridružite se tvrtkama koje su unaprijedile HR uz stručno savjetovanje.",
+				"type": "Text"
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "Počnite odmah",
+				"type": "Text"
+			},
+			"button_link": {
+				"key": "68e1a429-2776-44a1-8ab3-2914eca1cf11",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://selekcija.hr/kontakt"
+				}
+			}
+		},
+		"items": []
+	}
+]

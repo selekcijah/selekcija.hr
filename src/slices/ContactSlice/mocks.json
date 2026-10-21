@@ -1,0 +1,99 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"info_heading": {
+				"__TYPE__": "FieldContent",
+				"value": "shore",
+				"type": "Text"
+			},
+			"form_heading": {
+				"__TYPE__": "FieldContent",
+				"value": "date",
+				"type": "Text"
+			},
+			"form_description": {
+				"__TYPE__": "FieldContent",
+				"value": "farmer",
+				"type": "Text"
+			},
+			"submit_label": {
+				"__TYPE__": "FieldContent",
+				"value": "hundred",
+				"type": "Text"
+			},
+			"role_field_label": {
+				"__TYPE__": "FieldContent",
+				"value": "worker",
+				"type": "Text"
+			},
+			"role_options": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"role_label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "stronger",
+									"type": "Text"
+								}
+							],
+							[
+								"role_value",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "are",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"show_map": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"map_embed_url": {
+				"__TYPE__": "FieldContent",
+				"value": "build",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"office_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "snake",
+							"type": "Text"
+						}
+					],
+					[
+						"office_address",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "bat",
+							"type": "Text"
+						}
+					],
+					[
+						"office_hours",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "calm",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

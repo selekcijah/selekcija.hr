@@ -1,0 +1,56 @@
+{
+  "id": "image_slice",
+  "type": "SharedSlice",
+  "name": "ImageSlice",
+  "description": "Single image with simple layout controls",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Single image block",
+      "imageUrl": "",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption",
+            "placeholder": "Optional caption"
+          }
+        },
+        "width": {
+          "type": "Select",
+          "config": {
+            "label": "Width",
+            "options": ["narrow", "default", "wide", "full"],
+            "default_value": "default"
+          }
+        },
+        "alignment": {
+          "type": "Select",
+          "config": {
+            "label": "Alignment",
+            "options": ["left", "center", "right"],
+            "default_value": "center"
+          }
+        },
+        "rounded": {
+          "type": "Boolean",
+          "config": {
+            "label": "Rounded corners"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

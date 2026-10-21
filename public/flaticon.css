@@ -1,0 +1,540 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("/fonts/flaticon_mycollection.woff2") format("woff2"),
+         url("/fonts/flaticon_mycollection.woff") format("woff"),
+         url("/fonts/flaticon_mycollection.ttf") format("truetype");
+    font-display: block;
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-scenic:before {
+    content: "\f101" !important;
+}
+.flaticon-abstract:before {
+    content: "\f102" !important;
+}
+.flaticon-abstract-1:before {
+    content: "\f103" !important;
+}
+.flaticon-abstract-2:before {
+    content: "\f104" !important;
+}
+.flaticon-abstract-3:before {
+    content: "\f105" !important;
+}
+.flaticon-abstract-4:before {
+    content: "\f106" !important;
+}
+.flaticon-abstract-5:before {
+    content: "\f107" !important;
+}
+.flaticon-abstract-6:before {
+    content: "\f108" !important;
+}
+.flaticon-abstract-7:before {
+    content: "\f109" !important;
+}
+.flaticon-abstract-8:before {
+    content: "\f10a" !important;
+}
+.flaticon-abstract-9:before {
+    content: "\f10b" !important;
+}
+.flaticon-abstract-10:before {
+    content: "\f10c" !important;
+}
+.flaticon-abstract-11:before {
+    content: "\f10d" !important;
+}
+.flaticon-candidate:before {
+    content: "\f10e" !important;
+}
+.flaticon-job-search:before {
+    content: "\f10f" !important;
+}
+.flaticon-employee:before {
+    content: "\f110" !important;
+}
+.flaticon-management:before {
+    content: "\f111" !important;
+}
+.flaticon-idea:before {
+    content: "\f112" !important;
+}
+.flaticon-user:before {
+    content: "\f113" !important;
+}
+.flaticon-handshake:before {
+    content: "\f114" !important;
+}
+.flaticon-employee-1:before {
+    content: "\f115" !important;
+}
+.flaticon-management-1:before {
+    content: "\f116" !important;
+}
+.flaticon-job-search-1:before {
+    content: "\f117" !important;
+}
+.flaticon-time-management:before {
+    content: "\f118" !important;
+}
+.flaticon-presentation:before {
+    content: "\f119" !important;
+}
+.flaticon-award:before {
+    content: "\f11a" !important;
+}
+.flaticon-candidates:before {
+    content: "\f11b" !important;
+}
+.flaticon-hierarchical-structure:before {
+    content: "\f11c" !important;
+}
+.flaticon-conversation:before {
+    content: "\f11d" !important;
+}
+.flaticon-profiles:before {
+    content: "\f11e" !important;
+}
+.flaticon-candidates-1:before {
+    content: "\f11f" !important;
+}
+.flaticon-trophy:before {
+    content: "\f120" !important;
+}
+.flaticon-puzzle:before {
+    content: "\f121" !important;
+}
+.flaticon-work-team:before {
+    content: "\f122" !important;
+}
+.flaticon-recruitment:before {
+    content: "\f123" !important;
+}
+.flaticon-resume:before {
+    content: "\f124" !important;
+}
+.flaticon-resume-1:before {
+    content: "\f125" !important;
+}
+.flaticon-id-card:before {
+    content: "\f126" !important;
+}
+.flaticon-hiring:before {
+    content: "\f127" !important;
+}
+.flaticon-conversation-1:before {
+    content: "\f128" !important;
+}
+.flaticon-finances:before {
+    content: "\f129" !important;
+}
+.flaticon-leadership:before {
+    content: "\f12a" !important;
+}
+.flaticon-hiring-1:before {
+    content: "\f12b" !important;
+}
+.flaticon-skills:before {
+    content: "\f12c" !important;
+}
+.flaticon-email:before {
+    content: "\f12d" !important;
+}
+.flaticon-analytics:before {
+    content: "\f12e" !important;
+}
+.flaticon-target:before {
+    content: "\f12f" !important;
+}
+.flaticon-management-2:before {
+    content: "\f130" !important;
+}
+.flaticon-puzzle-1:before {
+    content: "\f131" !important;
+}
+.flaticon-strategy:before {
+    content: "\f132" !important;
+}
+.flaticon-problems:before {
+    content: "\f133" !important;
+}
+.flaticon-podium:before {
+    content: "\f134" !important;
+}
+.flaticon-profits:before {
+    content: "\f135" !important;
+}
+.flaticon-calendar:before {
+    content: "\f136" !important;
+}
+.flaticon-portfolio:before {
+    content: "\f137" !important;
+}
+.flaticon-list:before {
+    content: "\f138" !important;
+}
+.flaticon-pension:before {
+    content: "\f139" !important;
+}
+.flaticon-deal:before {
+    content: "\f13a" !important;
+}
+.flaticon-diploma:before {
+    content: "\f13b" !important;
+}
+.flaticon-job-search-2:before {
+    content: "\f13c" !important;
+}
+.flaticon-job-search-3:before {
+    content: "\f13d" !important;
+}
+.flaticon-salary:before {
+    content: "\f13e" !important;
+}
+.flaticon-promotion:before {
+    content: "\f13f" !important;
+}
+.flaticon-project-management:before {
+    content: "\f140" !important;
+}
+.flaticon-abstract-12:before {
+    content: "\f141" !important;
+}
+.flaticon-abstract-13:before {
+    content: "\f142" !important;
+}
+.flaticon-abstract-14:before {
+    content: "\f143" !important;
+}
+.flaticon-abstract-15:before {
+    content: "\f144" !important;
+}
+.flaticon-abstract-16:before {
+    content: "\f145" !important;
+}
+.flaticon-abstract-17:before {
+    content: "\f146" !important;
+}
+.flaticon-abstract-18:before {
+    content: "\f147" !important;
+}
+.flaticon-abstract-19:before {
+    content: "\f148" !important;
+}
+.flaticon-abstract-20:before {
+    content: "\f149" !important;
+}
+.flaticon-abstract-21:before {
+    content: "\f14a" !important;
+}
+.flaticon-abstract-22:before {
+    content: "\f14b" !important;
+}
+.flaticon-abstract-23:before {
+    content: "\f14c" !important;
+}
+.flaticon-abstract-24:before {
+    content: "\f14d" !important;
+}
+.flaticon-abstract-25:before {
+    content: "\f14e" !important;
+}
+.flaticon-abstract-26:before {
+    content: "\f14f" !important;
+}
+.flaticon-abstract-27:before {
+    content: "\f150" !important;
+}
+.flaticon-abstract-28:before {
+    content: "\f151" !important;
+}
+.flaticon-abstract-29:before {
+    content: "\f152" !important;
+}
+.flaticon-abstract-30:before {
+    content: "\f153" !important;
+}
+.flaticon-abstract-31:before {
+    content: "\f154" !important;
+}
+.flaticon-abstract-32:before {
+    content: "\f155" !important;
+}
+.flaticon-abstract-33:before {
+    content: "\f156" !important;
+}
+.flaticon-abstract-34:before {
+    content: "\f157" !important;
+}
+.flaticon-abstract-35:before {
+    content: "\f158" !important;
+}
+.flaticon-abstract-36:before {
+    content: "\f159" !important;
+}
+.flaticon-abstract-37:before {
+    content: "\f15a" !important;
+}
+.flaticon-abstract-38:before {
+    content: "\f15b" !important;
+}
+.flaticon-conveyor:before {
+    content: "\f15c" !important;
+}
+.flaticon-stats:before {
+    content: "\f15d" !important;
+}
+.flaticon-education:before {
+    content: "\f15e" !important;
+}
+.flaticon-team:before {
+    content: "\f15f" !important;
+}
+.flaticon-folder:before {
+    content: "\f160" !important;
+}
+.flaticon-goal:before {
+    content: "\f161" !important;
+}
+.flaticon-dollar:before {
+    content: "\f162" !important;
+}
+.flaticon-pay:before {
+    content: "\f163" !important;
+}
+.flaticon-calendar-1:before {
+    content: "\f164" !important;
+}
+.flaticon-task-list:before {
+    content: "\f165" !important;
+}
+.flaticon-profile:before {
+    content: "\f166" !important;
+}
+.flaticon-briefcase:before {
+    content: "\f167" !important;
+}
+.flaticon-search:before {
+    content: "\f168" !important;
+}
+.flaticon-identity:before {
+    content: "\f169" !important;
+}
+.flaticon-target-1:before {
+    content: "\f16a" !important;
+}
+.flaticon-talking:before {
+    content: "\f16b" !important;
+}
+.flaticon-interview:before {
+    content: "\f16c" !important;
+}
+.flaticon-podium-1:before {
+    content: "\f16d" !important;
+}
+.flaticon-agreement:before {
+    content: "\f16e" !important;
+}
+.flaticon-diagram:before {
+    content: "\f16f" !important;
+}
+.flaticon-email-1:before {
+    content: "\f170" !important;
+}
+.flaticon-badge:before {
+    content: "\f171" !important;
+}
+.flaticon-laptop:before {
+    content: "\f172" !important;
+}
+.flaticon-life-guard:before {
+    content: "\f173" !important;
+}
+.flaticon-link:before {
+    content: "\f174" !important;
+}
+.flaticon-hierarchy:before {
+    content: "\f175" !important;
+}
+.flaticon-employee-2:before {
+    content: "\f176" !important;
+}
+.flaticon-transfer:before {
+    content: "\f177" !important;
+}
+.flaticon-account:before {
+    content: "\f178" !important;
+}
+.flaticon-diagram-1:before {
+    content: "\f179" !important;
+}
+.flaticon-hierarchy-1:before {
+    content: "\f17a" !important;
+}
+.flaticon-brain:before {
+    content: "\f17b" !important;
+}
+.flaticon-shield:before {
+    content: "\f17c" !important;
+}
+.flaticon-connect:before {
+    content: "\f17d" !important;
+}
+.flaticon-pin:before {
+    content: "\f17e" !important;
+}
+.flaticon-tie:before {
+    content: "\f17f" !important;
+}
+.flaticon-diamond:before {
+    content: "\f180" !important;
+}
+.flaticon-interview-1:before {
+    content: "\f181" !important;
+}
+.flaticon-eye:before {
+    content: "\f182" !important;
+}
+.flaticon-man:before {
+    content: "\f183" !important;
+}
+.flaticon-clock:before {
+    content: "\f184" !important;
+}
+.flaticon-user-1:before {
+    content: "\f185" !important;
+}
+.flaticon-connect-1:before {
+    content: "\f186" !important;
+}
+.flaticon-faq:before {
+    content: "\f187" !important;
+}
+.flaticon-hierarchy-2:before {
+    content: "\f188" !important;
+}
+.flaticon-support:before {
+    content: "\f189" !important;
+}
+.flaticon-calculator:before {
+    content: "\f18a" !important;
+}
+.flaticon-setting:before {
+    content: "\f18b" !important;
+}
+.flaticon-directory:before {
+    content: "\f18c" !important;
+}
+.flaticon-analyzing:before {
+    content: "\f18d" !important;
+}
+.flaticon-profile-1:before {
+    content: "\f18e" !important;
+}
+.flaticon-employee-3:before {
+    content: "\f18f" !important;
+}
+.flaticon-resume-2:before {
+    content: "\f190" !important;
+}
+.flaticon-flight:before {
+    content: "\f191" !important;
+}
+.flaticon-contract:before {
+    content: "\f192" !important;
+}
+.flaticon-abstract-39:before {
+    content: "\f193" !important;
+}
+.flaticon-team-1:before {
+    content: "\f194" !important;
+}
+.flaticon-orbit:before {
+    content: "\f195" !important;
+}
+.flaticon-pie-chart:before {
+    content: "\f196" !important;
+}
+.flaticon-business-proposal:before {
+    content: "\f197" !important;
+}
+.flaticon-trust:before {
+    content: "\f198" !important;
+}
+.flaticon-solution:before {
+    content: "\f199" !important;
+}
+.flaticon-continuous-improvement:before {
+    content: "\f19a" !important;
+}
+.flaticon-relationships:before {
+    content: "\f19b" !important;
+}
+.flaticon-analysis:before {
+    content: "\f19c" !important;
+}
+.flaticon-public-health:before {
+    content: "\f19d" !important;
+}
+.flaticon-social-security:before {
+    content: "\f19e" !important;
+}
+.flaticon-idea-1:before {
+    content: "\f19f" !important;
+}
+.flaticon-compassion:before {
+    content: "\f1a0" !important;
+}
+.flaticon-infographics:before {
+    content: "\f1a1" !important;
+}
+.flaticon-experts:before {
+    content: "\f1a2" !important;
+}
+.flaticon-relationship:before {
+    content: "\f1a3" !important;
+}
+.flaticon-need-assessment:before {
+    content: "\f1a4" !important;
+}
+.flaticon-diversity:before {
+    content: "\f1a5" !important;
+}
+.flaticon-approach:before {
+    content: "\f1a6" !important;
+}
+.flaticon-timer:before {
+    content: "\f1a7" !important;
+}
+.flaticon-digital-transformation:before {
+    content: "\f1a8" !important;
+}
+.flaticon-marketplace:before {
+    content: "\f1a9" !important;
+}
+.flaticon-partnership:before {
+    content: "\f1aa" !important;
+}

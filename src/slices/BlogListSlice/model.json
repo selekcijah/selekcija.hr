@@ -1,0 +1,33 @@
+{
+  "description": "Blog post grid with search filtering and client-side pagination",
+  "id": "blog_list_slice",
+  "name": "BlogListSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Our Blog"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": "Insights, tips and industry news"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "cards_grid_slice",
+  "type": "SharedSlice",
+  "name": "CardsGridSlice",
+  "description": "Consulting services grid — alternating image tiles and content cards",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Services grid section",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Our Services",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "We Offer End-to-end HR Consulting Services",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "bottom_text": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Bar Text",
+            "placeholder": "Explore Expert HR Recruitment Solutions."
+          }
+        },
+        "bottom_link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Bar Link Label",
+            "placeholder": "View All Services."
+          }
+        },
+        "bottom_link": {
+          "type": "Link",
+          "config": {
+            "label": "Bottom Bar Link",
+            "select": null
+          }
+        },
+        "cards": {
+          "type": "Group",
+          "config": {
+            "label": "Services",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Talent Acquisition",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Attract and hire the right talent...",
+                  "allowTargetBlank": false,
+                  "single": "paragraph"
+                }
+              },
+              "bullet_list": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Bullet List",
+                  "allowTargetBlank": false,
+                  "multi": "list-item"
+                }
+              },
+              "button_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Label",
+                  "placeholder": "Learn More"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Blue accent variation",
+      "imageUrl": "",
+      "primary": {
+        "sub_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Label",
+            "placeholder": "Our Services",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "We Offer End-to-end HR Consulting Services",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "bottom_text": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Bar Text",
+            "placeholder": "Explore Expert HR Recruitment Solutions."
+          }
+        },
+        "bottom_link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Bar Link Label",
+            "placeholder": "View All Services."
+          }
+        },
+        "bottom_link": {
+          "type": "Link",
+          "config": {
+            "label": "Bottom Bar Link",
+            "select": null
+          }
+        },
+        "cards": {
+          "type": "Group",
+          "config": {
+            "label": "Services",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Talent Acquisition",
+                  "allowTargetBlank": false,
+                  "single": "heading3"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Attract and hire the right talent...",
+                  "allowTargetBlank": false,
+                  "single": "paragraph"
+                }
+              },
+              "bullet_list": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Bullet List",
+                  "allowTargetBlank": false,
+                  "multi": "list-item"
+                }
+              },
+              "button_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Label",
+                  "placeholder": "Learn More"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "description": "Animated KPI counters from services-2 template",
+  "id": "counter_slice",
+  "name": "CounterSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Default variation",
+      "primary": {},
+      "items": {
+        "value": {
+          "type": "Number",
+          "config": {
+            "label": "Value",
+            "placeholder": "50"
+          }
+        },
+        "suffix": {
+          "type": "Select",
+          "config": {
+            "label": "Suffix",
+            "options": [
+              "+",
+              "%",
+              "x",
+              "K+",
+              "M+",
+              "Days"
+            ]
+          }
+        },
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label",
+            "placeholder": "Average Implementation Time"
+          }
+        }
+      }
+    },
+    {
+      "id": "altBackground",
+      "name": "Alt Background",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Same counters with secondary background",
+      "primary": {},
+      "items": {
+        "value": {
+          "type": "Number",
+          "config": {
+            "label": "Value",
+            "placeholder": "50"
+          }
+        },
+        "suffix": {
+          "type": "Select",
+          "config": {
+            "label": "Suffix",
+            "options": [
+              "+",
+              "%",
+              "x",
+              "K+",
+              "M+",
+              "Days"
+            ]
+          }
+        },
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label",
+            "placeholder": "Average Implementation Time"
+          }
+        }
+      }
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "imageUrl": "",
+      "docURL": "",
+      "version": "initial",
+      "description": "Blue accent variation",
+      "primary": {},
+      "items": {
+        "value": {
+          "type": "Number",
+          "config": {
+            "label": "Value",
+            "placeholder": "50"
+          }
+        },
+        "suffix": {
+          "type": "Select",
+          "config": {
+            "label": "Suffix",
+            "options": [
+              "+",
+              "%",
+              "x",
+              "K+",
+              "M+",
+              "Days"
+            ]
+          }
+        },
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label",
+            "placeholder": "Average Implementation Time"
+          }
+        }
+      }
+    }
+  ]
+}
