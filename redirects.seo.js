@@ -68,7 +68,6 @@ const seoRedirectPairs = [
   { source: "/2015/09/kako_izgleda_profesionalna_selekcija", destination: "/blog", permanent: true },
   { source: "/2010/11/procjena-radne-motivacije", destination: "/blog", permanent: true },
   { source: "/2019/08/soft-skills-edukacije-zaposlenika", destination: "/blog", permanent: true },
-  { source: "/en/upitnici-licnosti", destination: "/upitnici-licnosti", permanent: true },
   { source: "/2008/09/analiza-posla", destination: "/blog", permanent: true },
   { source: "/testiranje-licnosti", destination: "/upitnici-licnosti", permanent: true },
   { source: "/2021/04/radna-ucinkovitost", destination: "/blog", permanent: true },
