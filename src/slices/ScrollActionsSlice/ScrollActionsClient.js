@@ -24,6 +24,15 @@ export function ScrollActionsClient({ tagline, heading, actions }) {
   const count = Math.max(actions.length, 1);
   const [active, setActive] = useState(0);
   const [stageH, setStageH] = useState(380);
+  const [followFinger, setFollowFinger] = useState(false);
+
+  useLayoutEffect(() => {
+    const coarse = window.matchMedia("(pointer: coarse)");
+    const sync = () => setFollowFinger(coarse.matches);
+    sync();
+    coarse.addEventListener("change", sync);
+    return () => coarse.removeEventListener("change", sync);
+  }, []);
 
   useLayoutEffect(() => {
     const el = stageRef.current;
@@ -40,6 +49,8 @@ export function ScrollActionsClient({ tagline, heading, actions }) {
     offset: ["start start", "end end"],
   });
 
+  // Desktop keeps the elastic spring. On touch, that spring trails the finger
+  // and then snaps — track the scroll 1:1 instead.
   const progress = useSpring(scrollYProgress, {
     stiffness: 80,
     damping: 16,
@@ -48,7 +59,10 @@ export function ScrollActionsClient({ tagline, heading, actions }) {
   });
 
   const slot = stageH + GAP;
-  const y = useTransform(progress, (v) => -v * Math.max(count - 1, 0) * slot);
+  const travel = (v) => -v * Math.max(count - 1, 0) * slot;
+  const ySpring = useTransform(progress, travel);
+  const yDirect = useTransform(scrollYProgress, travel);
+  const y = followFinger ? yDirect : ySpring;
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
     if (count < 2) return;
@@ -87,7 +101,14 @@ export function ScrollActionsClient({ tagline, heading, actions }) {
   }
 
   return (
-    <div ref={trackRef} className="relative max-w-full" style={{ height: `${count * 88}vh` }}>
+    <div
+      ref={trackRef}
+      className="relative max-w-full"
+      style={{
+        // Shorter throw on touch so one card doesn't take a long drag
+        height: followFinger ? `${100 + Math.max(count - 1, 0) * 52}svh` : `${count * 88}vh`,
+      }}
+    >
       <div className="sticky top-0 flex min-h-[100svh] max-w-full items-center overflow-x-clip py-12 md:py-24">
         <div className="grid w-full min-w-0 grid-cols-1 items-center gap-6 lg:grid-cols-12 lg:gap-12">
           <div className="flex min-w-0 flex-col gap-5 lg:col-span-5 lg:gap-8">
@@ -96,10 +117,13 @@ export function ScrollActionsClient({ tagline, heading, actions }) {
           </div>
 
           <div className="relative min-w-0 lg:col-span-7">
-            <div aria-hidden className="pointer-events-none absolute inset-y-6 left-1/2 -z-10 w-[70%] -translate-x-1/2 rounded-full bg-primary/16 blur-[90px]" />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-y-6 left-1/2 -z-10 w-[70%] -translate-x-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(34,124,255,0.22),transparent_70%)] md:bg-primary/16 md:blur-[90px]"
+            />
 
             <div ref={stageRef} className="relative h-[400px] overflow-hidden md:h-[380px]">
-              <motion.div className="flex flex-col" style={{ y, gap: GAP }}>
+              <motion.div className="flex flex-col will-change-transform" style={{ y, gap: GAP }}>
                 {actions.map((action, i) => (
                   <div key={`${prismic.asText(action.heading)}-${i}`} className="h-[400px] shrink-0 md:h-[380px]">
                     <ActionCard action={action} index={i} active={active === i} large />
@@ -147,7 +171,7 @@ function ProgressRail({ actions, active, onSelect }) {
     const listRect = list.getBoundingClientRect();
     const itemRect = item.getBoundingClientRect();
     const delta = itemRect.left - listRect.left - (listRect.width - itemRect.width) / 2;
-    list.scrollTo({ left: list.scrollLeft + delta, behavior: "smooth" });
+    list.scrollTo({ left: list.scrollLeft + delta, behavior: "auto" });
   }, [active]);
 
   return (
@@ -203,7 +227,7 @@ function ActionCard({ action, index, active, large = false }) {
   return (
     <div
       className={cn(
-        "relative h-full overflow-hidden rounded-2xl border bg-surface-2 transition-[border-color,box-shadow] duration-500",
+        "relative h-full overflow-hidden rounded-2xl border bg-surface-2 transition-colors duration-200",
         active
           ? "border-primary/50 shadow-[0_28px_70px_-24px_rgba(34,124,255,0.45)]"
           : "border-line-strong shadow-[0_18px_40px_-28px_rgba(0,0,0,0.9)]",
