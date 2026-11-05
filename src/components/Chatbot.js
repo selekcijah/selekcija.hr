@@ -9,8 +9,8 @@ const PRIMARY = "#227cff";
 const VISITOR = "#e8f1ff";
 
 /**
- * DigitalOcean Gradient launcher. The circle and icon slot are fixed inside
- * their iframe. The person mark is theirs, so the button reads as chat.
+ * DigitalOcean Gradient launcher. Their iframe draws a fixed 64px circle;
+ * the page scales that circle down.
  */
 export default function Chatbot() {
   const pathname = usePathname();
