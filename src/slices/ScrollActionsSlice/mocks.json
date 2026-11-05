@@ -1,0 +1,178 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"value": "Za kandidate",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Tri ulaza u Selekcija.hr",
+							"spans": [
+								{
+									"type": "strong",
+									"start": 12,
+									"end": 24
+								}
+							]
+						}
+					}
+				]
+			},
+			"actions": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading3",
+											"content": {
+												"text": "Selekcija.hr oglasi",
+												"spans": [
+													{
+														"type": "strong",
+														"start": 13,
+														"end": 19
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Pregledaj otvorene pozicije i prijavi se na oglase partnera.",
+									"type": "Text"
+								}
+							],
+							[
+								"button",
+								{
+									"key": "b2c3d4e5-f6a7-4890-b123-456789abcdef",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://online.selekcija.hr/home/jobs",
+										"target": "_blank",
+										"text": "Otvoreni oglasi za posao"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading3",
+											"content": {
+												"text": "Selekcija.hr baza podataka",
+												"spans": [
+													{
+														"type": "strong",
+														"start": 14,
+														"end": 26
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Postani dio baze kandidata i budi vidljiv poslodavcima.",
+									"type": "Text"
+								}
+							],
+							[
+								"button",
+								{
+									"key": "05767e68-c8a8-41f6-8a49-f6df38ee2dd6",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://online.selekcija.hr/home/job/1119",
+										"target": "_blank",
+										"text": "Prijavi se"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading3",
+											"content": {
+												"text": "Ulaz u platformu",
+												"spans": [
+													{
+														"type": "strong",
+														"start": 8,
+														"end": 16
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Već imaš račun? Prijavi se i nastavi tamo gdje si stao.",
+									"type": "Text"
+								}
+							],
+							[
+								"button",
+								{
+									"key": "190d2914-781f-4431-aaff-93fa4b2969aa",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://online.selekcija.hr/login",
+										"target": "_blank",
+										"text": "Prijava"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

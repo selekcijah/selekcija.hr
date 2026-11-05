@@ -105,6 +105,9 @@
             },
             "tests_slice": {
               "type": "SharedSlice"
+            },
+            "scroll_actions_slice": {
+              "type": "SharedSlice"
             }
           }
         },

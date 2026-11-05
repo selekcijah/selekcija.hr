@@ -1,0 +1,64 @@
+{
+  "id": "scroll_actions_slice",
+  "name": "ScrollActionsSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default",
+      "docURL": "",
+      "id": "default",
+      "imageUrl": "",
+      "name": "Default",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": "Za kandidate"
+          },
+          "type": "Text"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "Tri ulaza u Selekcija.hr",
+            "single": "heading2,strong,em"
+          },
+          "type": "StructuredText"
+        },
+        "actions": {
+          "config": {
+            "fields": {
+              "heading": {
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "Selekcija.hr oglasi",
+                  "single": "heading3,strong,em"
+                },
+                "type": "StructuredText"
+              },
+              "description": {
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Kratki opis ulaza…"
+                },
+                "type": "Text"
+              },
+              "button": {
+                "config": {
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "label": "Button",
+                  "select": null
+                },
+                "type": "Link"
+              }
+            },
+            "label": "Actions"
+          },
+          "type": "Group"
+        }
+      },
+      "version": ""
+    }
+  ]
+}
