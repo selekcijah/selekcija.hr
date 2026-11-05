@@ -3,6 +3,7 @@ import "./globals.css";
 import { PrismicPreview } from "@prismicio/next";
 
 import { repositoryName } from "@/lib/prismicio";
+import Chatbot from "@/components/Chatbot";
 import CookieScripts from "@/components/CookieScripts";
 
 /**
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className="bg-surface font-body text-body antialiased" suppressHydrationWarning>
         {children}
         <CookieScripts />
+        <Chatbot />
         <PrismicPreview repositoryName={repositoryName} />
       </body>
     </html>
