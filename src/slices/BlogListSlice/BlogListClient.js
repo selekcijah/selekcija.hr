@@ -39,8 +39,9 @@ export function BlogListClient({ posts, lang }) {
     ? posts.filter((post) => {
         const title = prismic.asText(post.data.title).toLowerCase();
         const excerpt = (post.data.excerpt || "").toLowerCase();
+        const content = prismic.asText(post.data.content).toLowerCase();
         const q = searchQuery.toLowerCase();
-        return title.includes(q) || excerpt.includes(q);
+        return title.includes(q) || excerpt.includes(q) || content.includes(q);
       })
     : posts;
 

@@ -5,13 +5,11 @@
   "license": "Apache-2.0",
   "author": "killer click",
   "scripts": {
-    "dev": "concurrently \"npm:next:dev\" \"npm:slicemachine\" --names \"next,slicemachine\" --prefix-colors blue,magenta",
-    "next:dev": "rimraf .next && next dev",
+    "dev": "rimraf .next && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "clean": "rimraf .next",
-    "slicemachine": "start-slicemachine",
     "format": "prettier --write ."
   },
   "dependencies": {
