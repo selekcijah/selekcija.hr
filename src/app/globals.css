@@ -405,4 +405,23 @@ a {
   filter: blur(8px);
 }
 
+/* The page is color-scheme: dark, which paints the chatbot frame white.
+   Collapsed, the round button is 64px and sits 4px off the bottom-right
+   of an 80px frame. Keep only that circle, centered in the frame. */
+iframe[title="Chatbot Playground"] {
+  color-scheme: normal;
+  background-color: transparent !important;
+}
+
+iframe[title="Chatbot Playground"][width="80px"] {
+  clip-path: circle(32px at 44px 44px);
+  transform: translate(-4px, -4px);
+  filter: drop-shadow(0 10px 18px rgba(4, 11, 30, 0.45));
+}
+
+body > div[style*="z-index: 9999"][style*="width: 80px"] {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
 
