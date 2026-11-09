@@ -174,6 +174,8 @@ export default async function BlogPostPage({ params }) {
   );
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const client = createClient();
   const posts = await client.getAllByType("blog_post", { lang: "*" }).catch(() => []);

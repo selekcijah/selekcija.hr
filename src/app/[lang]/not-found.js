@@ -1,6 +1,5 @@
 import { Layout } from "@/components/Layout";
 import { NotFoundView } from "@/components/NotFoundView";
-import { getNotFoundChrome } from "@/lib/notFoundChrome";
 
 export const metadata = {
   title: "404 | selekcija",
@@ -9,12 +8,11 @@ export const metadata = {
 
 /**
  * Locale-segment 404 used when `notFound()` is called from `[lang]` routes.
+ * Kept free of request APIs so unknown URLs are served as static HTML.
  */
-export default async function LangNotFound() {
-  const { lang, navigation, settings, locales } = await getNotFoundChrome();
-
+export default function LangNotFound() {
   return (
-    <Layout locales={locales} navigation={navigation} settings={settings} lang={lang}>
+    <Layout locales={[]} navigation={null} settings={null} lang="hr">
       <NotFoundView />
     </Layout>
   );

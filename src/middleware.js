@@ -6,6 +6,12 @@ const NON_DEFAULT_PREFIXES = ["en"];
 export async function middleware(request) {
   const { pathname } = request.nextUrl;
 
+  // Pages have no server actions. Scanners POST action id "x" to "/" and
+  // Next still boots a function to report that the action does not exist.
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    return new NextResponse(null, { status: 404 });
+  }
+
   // Redirect /hr/... → /... (remove default locale prefix from URL)
   if (
     pathname.startsWith(`/${DEFAULT_LOCALE}/`) ||
