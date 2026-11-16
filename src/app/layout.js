@@ -6,6 +6,19 @@ import { repositoryName } from "@/lib/prismicio";
 import Chatbot from "@/components/Chatbot";
 import CookieScripts from "@/components/CookieScripts";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://selekcija.hr";
+
+export const metadata = {
+  metadataBase: new URL(siteUrl),
+  openGraph: {
+    images: [{ url: "/brand/og.png", width: 1200, height: 630, alt: "Selekcija" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/brand/og.png"],
+  },
+};
+
 /**
  * @param {{ children: React.ReactNode }}
  */

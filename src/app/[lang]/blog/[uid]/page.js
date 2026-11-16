@@ -14,6 +14,7 @@ import { MarkerHeading } from "@/components/ui/MarkerHeading";
 import { NeuralMark } from "@/components/ui/NeuralMark";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+import { socialMetadata } from "@/lib/metadata";
 
 function readingTime(post, isEn) {
   const text = [
@@ -45,19 +46,7 @@ export async function generateMetadata({ params }) {
   return {
     title: metaTitle,
     description: metaDescription,
-    openGraph: metaImage
-      ? {
-          images: [
-            {
-              url: metaImage.url,
-              alt: metaImage.alt || undefined,
-              width: metaImage.dimensions?.width,
-              height: metaImage.dimensions?.height,
-            },
-          ],
-        }
-      : undefined,
-    twitter: metaImage ? { card: "summary_large_image", images: [metaImage.url] } : undefined,
+    ...socialMetadata(metaImage),
   };
 }
 

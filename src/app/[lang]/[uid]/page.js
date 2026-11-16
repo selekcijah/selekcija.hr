@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 
 import { Layout } from "@/components/Layout";
 import { components } from "@/slices";
+import { socialMetadata } from "@/lib/metadata";
 
 /**
  * @returns {Promise<import("next").Metadata>}
@@ -29,24 +30,7 @@ export async function generateMetadata({ params }) {
   return {
     title: metaTitle,
     description: metaDescription,
-    openGraph: metaImage
-      ? {
-          images: [
-            {
-              url: metaImage.url,
-              alt: metaImage.alt || undefined,
-              width: metaImage.dimensions?.width,
-              height: metaImage.dimensions?.height,
-            },
-          ],
-        }
-      : undefined,
-    twitter: metaImage
-      ? {
-          card: "summary_large_image",
-          images: [metaImage.url],
-        }
-      : undefined,
+    ...socialMetadata(metaImage),
   };
 }
 
