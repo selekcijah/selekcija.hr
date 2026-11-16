@@ -108,6 +108,9 @@
             },
             "scroll_actions_slice": {
               "type": "SharedSlice"
+            },
+            "small_image_slice": {
+              "type": "SharedSlice"
             }
           }
         },

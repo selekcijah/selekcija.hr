@@ -1,0 +1,31 @@
+{
+  "id": "small_image_slice",
+  "name": "SmallImageSlice",
+  "type": "SharedSlice",
+  "variations": [
+    {
+      "description": "Default",
+      "docURL": "",
+      "id": "default",
+      "imageUrl": "",
+      "name": "Default",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image"
+          },
+          "type": "Image"
+        },
+        "text": {
+          "config": {
+            "allowTargetBlank": true,
+            "label": "Text",
+            "multi": "heading2,heading3,paragraph,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "version": ""
+    }
+  ]
+}

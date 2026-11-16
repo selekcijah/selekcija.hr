@@ -23,6 +23,7 @@ import RoiCalculatorSlice from "./RoiCalculatorSlice";
 import ScrollActionsSlice from "./ScrollActionsSlice";
 import ServicesSlice from "./ServicesSlice";
 import SmallHeroSlice from "./SmallHeroSlice";
+import SmallImageSlice from "./SmallImageSlice";
 import TeamSlice from "./TeamSlice";
 import TestimonialsSlice from "./TestimonialsSlice";
 import TestsSlice from "./TestsSlice";
@@ -55,6 +56,7 @@ export const components = {
 	scroll_actions_slice: ScrollActionsSlice,
 	services_slice: ServicesSlice,
 	small_hero_slice: SmallHeroSlice,
+	small_image_slice: SmallImageSlice,
 	team_slice: TeamSlice,
 	testimonials_slice: TestimonialsSlice,
 	tests_slice: TestsSlice,
